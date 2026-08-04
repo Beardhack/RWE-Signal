@@ -45,7 +45,7 @@ Tokenization is not, by itself, a HIPAA de-identification method. Linkage qualit
 1. Read this file, `automation_prompt.md`, and all files in `config/`.
 2. Read `state/seen_items.jsonl`, `state/run_log.jsonl`, `state/source_health.json`, and `state/watchlist_candidates.json`.
 3. Determine the local date in `America/New_York`.
-4. Use a 48-hour overlap for posts and news, and a 14-day overlap for papers, conference records, standards, and regulatory pages.
+4. Use a 30-day discovery window for all source types. For posts and fast-moving news, prioritize the most recent 48 hours first, then search the remainder of the month for missed high-signal work.
 5. Search the named people first, then institutional feeds, then the thematic queries.
 6. Verify every included item at the most primary accessible source.
 
@@ -63,6 +63,7 @@ Do not present a snippet as verified evidence. If a primary source is inaccessib
 ## Search and verification rules
 
 - Search exact names in quotes with the topic terms and date window.
+- Use the source's electronic publication or substantive update date, not a nominal journal issue month, when deciding whether it falls inside the discovery window.
 - Confirm the author, publication date, direct URL, and relevance before scoring.
 - Separate what the source establishes from your inference.
 - Do not overstate early results, preprints, abstracts, posters, vendor claims, or social posts.
@@ -73,6 +74,19 @@ Do not present a snippet as verified evidence. If a primary source is inaccessib
 - Downgrade “regulatory grade” claims that omit study design, endpoint validity, estimands, bias, or auditability.
 - Downgrade “HIPAA compliant” claims that do not identify the de-identification basis, recipient, intended use, and risk logic.
 - Respect copyright. Quote sparingly and prefer paraphrase.
+
+## Novelty and deduplication
+
+The 30-day window is for discovery, not republication. Every public section must be anchored to a source or event that has not already been published by RWE-Signal.
+
+- Check `state/seen_items.jsonl` and run `python scripts/dedupe.py` before drafting. Deduplicate by stable identifier as well as URL: DOI, PMID, arXiv ID, NCT number, regulator document and version, then canonical URL.
+- Treat a paper, its press release, an author post, and trade coverage of that paper as one story. Anchor the section to the most primary source and use the other links only as supporting context.
+- Assign the same `story_id` to different sources covering the same underlying event. Only the first primary-source-backed treatment is eligible for publication.
+- Exact or substantially equivalent titles at different URLs are duplicates unless the later source documents a material change.
+- A previously covered source may return only when there is a substantive new version, dataset, result, correction, policy decision, or regulatory action. Record a `content_version` and state the precise delta in the research notes and public prose.
+- For living pages that retain one URL, such as annual regulator ledgers, a changed page is not automatically new. Publish it again only when the new version adds decision-relevant evidence.
+- Older sources may appear as clearly dated background inside a genuinely new story; they do not make a story new.
+- If no new candidate clears both the novelty gate and the signal threshold, publish the short no-new-signal edition instead of recycling prior coverage.
 
 ## Signal score
 
@@ -132,7 +146,8 @@ Use `python scripts/dedupe.py` to canonicalize and check candidate URLs. Never r
 ## State rules
 
 - `seen_items.jsonl` is append-only and contains one JSON object per published item.
-- A revised, substantially new version of a prior source may be included, but explain the delta.
+- Store `stable_id`, `story_id`, and `content_version` when available so alternate URLs and living pages can be checked reliably.
+- A revised, substantially new version of a prior source may be included, but record and explain the delta.
 - `run_log.jsonl` is append-only and records date, slug, item count, sources checked, access failures, and outcome.
 - Add a watchlist candidate only after at least two independently useful artifacts or one unusually strong primary artifact. Do not promote candidates to the watchlist automatically.
 

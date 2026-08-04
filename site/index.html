@@ -4,49 +4,109 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="editorial-scope" content="ai-rwe-intersection">
-  <meta name="description" content="A quiet RWE-Signal edition: no new primary-source result cleared both the AI-RWE intersection and novelty bars.">
-  <title>A Quiet Day at the AI-RWE Frontier &mdash; RWE-Signal</title>
+  <meta name="description" content="EmulatRx and THESEUS show two constrained architectures for applying agents and large language models to real-world evidence workflows.">
+  <title>Two Architectures Put Guardrails Around AI for RWE &mdash; RWE-Signal</title>
   <style>
-:root{color-scheme:light;--ink:#171717;--muted:#66635e;--paper:#fffdf8;--accent:#7c2d12;--link:#174e78;--wash:#f2ede3}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9df;font:19px/1.72 Georgia,"Times New Roman",serif}article{width:min(900px,calc(100% - 32px));min-height:100vh;margin:32px auto;padding:clamp(32px,7vw,82px);background:var(--paper);box-shadow:0 10px 40px rgba(55,45,30,.1)}.edition-nav{display:flex;justify-content:flex-end;margin:0 0 42px;font:700 13px/1 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}.article-title{margin:0;font:800 clamp(2.5rem,7vw,4.6rem)/.94 Arial,sans-serif;letter-spacing:-.055em;text-transform:uppercase}.article-title+h2{max-width:760px;margin:26px 0 20px;color:var(--accent);font:700 clamp(1.3rem,3vw,1.8rem)/1.2 Arial,sans-serif}section{margin:72px 0 0;padding-top:18px;border-top:5px solid var(--ink)}section h2{margin:0 0 26px;font:800 clamp(2rem,5vw,3.15rem)/1.05 Arial,sans-serif;letter-spacing:-.035em}p{margin:0 0 1.35em}a{color:var(--link);text-decoration-color:#8eafc7;text-underline-offset:3px}.dateline{color:var(--muted);font:14px/1.45 Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em}.quiet-note{margin:34px 0;padding:22px 24px;background:var(--wash);border-left:6px solid var(--accent);font:700 18px/1.45 Arial,sans-serif}@media(max-width:620px){body{font-size:17px}article{width:100%;margin:0;padding:30px 22px 60px;box-shadow:none}.article-title{font-size:clamp(2.25rem,12vw,3.7rem);line-height:.96}.quiet-note{padding:18px}}@media print{body{background:#fff}article{width:100%;margin:0;box-shadow:none}.edition-nav{display:none}}
+:root{color-scheme:light;--ink:#171717;--muted:#66635e;--paper:#fffdf8;--rule:#d9d2c5;--accent:#7c2d12;--blue:#174e78;--wash:#f2ede3;--gold:#b9791d}*{box-sizing:border-box}html{max-width:100%;overflow-x:hidden}body{margin:0;max-width:100%;overflow-x:hidden;color:var(--ink);background:#eee9df;font:19px/1.72 Georgia,"Times New Roman",serif}article{width:min(940px,calc(100% - 32px));margin:32px auto;padding:clamp(32px,7vw,82px);background:var(--paper);box-shadow:0 10px 40px rgba(55,45,30,.1)}.edition-nav{display:flex;justify-content:space-between;gap:18px;margin:0 0 42px;padding-bottom:12px;border-bottom:1px solid var(--rule);font:700 12px/1.2 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}.edition-nav a{white-space:nowrap}.article-title{margin:0;font:850 clamp(2.6rem,7.6vw,5.15rem)/.9 Arial,sans-serif;letter-spacing:-.062em;text-transform:uppercase;text-wrap:balance}.article-title+h2{max-width:800px;margin:28px 0 20px;color:var(--accent);font:700 clamp(1.28rem,3vw,1.85rem)/1.2 Arial,sans-serif;text-wrap:balance}.dateline{color:var(--muted);font:13px/1.45 Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em}.lead{max-width:800px;font-size:1.14em;line-height:1.62}section{margin:78px 0 0;padding-top:18px;border-top:5px solid var(--ink)}section h2{max-width:820px;margin:0 0 26px;font:850 clamp(2rem,5vw,3.25rem)/1.02 Arial,sans-serif;letter-spacing:-.04em;text-wrap:balance}section h3{margin:34px 0 12px;font:800 1.25rem/1.25 Arial,sans-serif}p{margin:0 0 1.35em;max-width:820px}a{color:var(--blue);text-decoration-color:#8eafc7;text-underline-offset:3px}.evidence-graphic{margin:38px 0 42px;padding:24px;border:1px solid var(--rule);background:var(--wash);font-family:Arial,sans-serif}.graphic-kicker{margin:0 0 20px;font:800 12px/1 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}.agent-chain{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.agent{min-height:148px;padding:15px 12px;background:var(--paper);border-top:5px solid var(--ink)}.agent:first-child{border-top-color:var(--accent)}.agent b,.pipe-step b{display:block;font:800 14px/1.2 Arial,sans-serif}.agent span,.pipe-step span{display:block;margin-top:11px;color:var(--muted);font:12px/1.4 Arial,sans-serif}.pipeline{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr auto 1fr;gap:8px;align-items:stretch}.pipe-step{min-height:138px;padding:14px 11px;background:var(--paper);border-top:5px solid var(--ink)}.pipe-step:nth-of-type(2){border-top-color:var(--accent)}.pipe-arrow{align-self:center;color:var(--accent);font:800 21px/1 Arial,sans-serif}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px}.study-card{padding:19px;background:var(--paper);border-top:5px solid var(--ink)}.study-card:last-child{border-top-color:var(--accent)}.study-card h3{margin:0 0 16px;font:800 17px/1.2 Arial,sans-serif}.metric-row{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-bottom:16px}.metric{padding:12px;background:#f6f2e9}.metric strong{display:block;color:var(--accent);font:850 29px/1 Arial,sans-serif}.metric span{display:block;margin-top:7px;color:var(--muted);font:11px/1.3 Arial,sans-serif}.study-card p{margin:0;color:var(--muted);font:12px/1.48 Arial,sans-serif}.comparison-note{margin:16px 0 0;padding-top:14px;border-top:1px solid var(--rule);color:var(--muted);font:12px/1.45 Arial,sans-serif}figcaption{margin-top:18px;color:var(--muted);font:13px/1.45 Arial,sans-serif}.closing{padding-bottom:6px}.source-note{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font:italic 14px/1.5 Georgia,serif}@media(max-width:760px){.agent-chain,.pipeline{grid-template-columns:1fr}.agent,.pipe-step{min-height:auto}.pipe-arrow{transform:rotate(90deg);justify-self:center}}@media(max-width:620px){body{font-size:17px}article{width:100%;margin:0;padding:28px 21px 58px;box-shadow:none}.edition-nav{align-items:flex-start;flex-direction:column}.article-title{font-size:clamp(2.15rem,10vw,3rem);line-height:.94;letter-spacing:-.055em}.comparison{grid-template-columns:1fr}.evidence-graphic{margin-left:-5px;margin-right:-5px;padding:17px}.metric-row{grid-template-columns:1fr 1fr}.metric strong{font-size:25px}}@media print{body{background:#fff}article{width:100%;margin:0;box-shadow:none}.edition-nav{display:none}}
   </style>
 </head>
 <body>
 <article data-editorial-scope="ai-rwe">
-  <nav class="edition-nav" aria-label="Publication navigation"><a href="https://beardhack.github.io/RWE-Signal/editions/">All editions</a></nav>
-  <h1 class="article-title">A Quiet Day at the AI-RWE Frontier</h1>
-  <h2>No new high-signal primary source cleared both the AI-RWE intersection and novelty bars in this run</h2>
-  <p class="dateline"><strong>RWE-Signal &mdash; August 4, 2026 &mdash; Third edition</strong></p>
+  <nav class="edition-nav" aria-label="Publication navigation"><span>RWE-Signal</span><a href="https://beardhack.github.io/RWE-Signal/editions/">All editions</a></nav>
+  <h1 class="article-title">Two Architectures Put Guardrails Around AI for RWE</h1>
+  <h2>EmulatRx distributes trial emulation across five agents; THESEUS confines the LLM to a reviewable step before deterministic code generation</h2>
+  <p class="dateline"><strong>August 4, 2026 &mdash; Daily edition</strong></p>
 
-  <p>The fresh public record contained plenty of activity, but no new result that belonged in this newspaper. Current RWE work without an agent or LLM did not qualify. Current agentic-science work without a healthcare real-world evidence workflow did not qualify either.</p>
+  <p class="lead">Two July papers offer unusually concrete answers to the same question: where should an AI model be allowed to act inside a real-world evidence workflow? One divides the lifecycle among specialists. The other makes the model stop at a structured specification.</p>
 
-  <p class="quiet-note">The absence of a story is preferable to manufacturing an intersection or repeating yesterday's evidence.</p>
+  <p>EmulatRx coordinates trial, informatics, clinical, and statistical agents across 20 trial emulations. THESEUS translates target-trial prose into JSON, lets humans review it, and gives code generation to deterministic rules.</p>
 
-  <p>This is not a claim that nothing was posted. Public social indexing is incomplete, and research pages do not update in unison. It is a narrower statement: among the accessible primary sources reviewed, no novel AI-plus-RWE development met the reporting bar.</p>
+  <p>Neither establishes autonomous, decision-grade RWE&mdash;and both are more credible for showing exactly where automation ends.</p>
 
   <section data-scope="ai-rwe">
-    <h2>The current signal is already on the record</h2>
+    <h2>EmulatRx turns trial emulation into a five-agent handoff</h2>
 
-    <p>The strongest qualifying systems in the 30-day window remain the two already reported. <a href="https://beardhack.github.io/RWE-Signal/editions/2026-08-04/">EmulatRx coordinates specialized agents across trial retrieval, cohort construction, clinical review, and causal analysis</a>. <a href="https://beardhack.github.io/RWE-Signal/editions/2026-08-04-2/">THESEUS gives an LLM the narrower job of converting target-trial prose into a reviewable specification before deterministic code generation</a>.</p>
+    <p><a href="https://www.nature.com/articles/s41467-026-74501-2" target="_blank" rel="noopener noreferrer">EmulatRx, published in <em>Nature Communications</em> on July 7</a>, is not a general chatbot wrapped around an electronic health record. It assigns protocol retrieval, cohort construction, clinical interpretation, causal analysis, and synthesis to specialized agents under a supervisor.</p>
 
-    <p>No material new version, dataset, evaluation, correction, or deployment evidence appeared for either system during this rerun. Repeating their results under a new headline would add volume, not signal.</p>
+    <p>The system was tested on 20 clinical trials: ten acute-care studies using MIMIC-IV and ten chronic-disease studies using INSIGHT. The workflow stores intermediate state and transformations, caches model responses, and fixes random seeds for downstream tools. Those choices do not guarantee reproducibility, but they make the chain of evidence more inspectable than an unstructured conversation with a model.</p>
+
+    <figure class="evidence-graphic" aria-labelledby="agents-title">
+      <p class="graphic-kicker" id="agents-title">One supervisor, four specialists, one evidence chain</p>
+      <div class="agent-chain" role="img" aria-label="The Supervisor coordinates Trialist, Informatician, Clinician, and Statistician agents across the RWE workflow">
+        <div class="agent"><b>Supervisor</b><span>Routes work and preserves workflow state.</span></div>
+        <div class="agent"><b>Trialist</b><span>Retrieves trials and parses protocol concepts.</span></div>
+        <div class="agent"><b>Informatician</b><span>Maps concepts and constructs RWD cohorts.</span></div>
+        <div class="agent"><b>Clinician</b><span>Reviews clinical meaning and plausibility.</span></div>
+        <div class="agent"><b>Statistician</b><span>Runs causal analyses with seeded tools.</span></div>
+      </div>
+      <figcaption>RWE-Signal workflow graphic based on the architecture reported by <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13341881/" target="_blank" rel="noopener noreferrer">Li et al.</a></figcaption>
+    </figure>
+
+    <p>The most telling applied example came from unstructured notes: the system identified 33 additional eligible patients in one emulation who were not discoverable from structured EHR fields alone. That is a practical RWE contribution. It also creates a review obligation, because expanded ascertainment changes the study population and therefore the evidence.</p>
   </section>
 
   <section data-scope="ai-rwe">
-    <h2>Near misses stayed on their own side of the line</h2>
+    <h2>The strongest EmulatRx result remains task-level</h2>
 
-    <p>Newly indexed causal and target-trial work raised important RWE questions but did not materially involve an agent, LLM, or foundation-model workflow. Other current papers studied general scientific agents without generating or evaluating healthcare RWE. Commercial perspectives described rapid-cycle agentic analytics but did not add new primary validation.</p>
+    <p>On 266 manually annotated eligibility concepts, GPT-4o reached 98.9% recall and 96.7% precision. Those are strong results for turning protocol language into computable concepts. They are not end-to-end validation of the causal conclusions produced by the full system.</p>
 
-    <p>Several strong AI-plus-RWE systems also surfaced outside the date window. They remain useful background and future watch targets, but an older posting date does not become new merely because a search engine indexed it this week.</p>
+    <p>Some causal evaluations used synthetic cohorts, the clinical review involved three experts, and the trial set was small. The evidence supports a multi-agent architecture performing selected RWE tasks; it does not show that the combined workflow can independently produce regulatory-grade evidence.</p>
   </section>
 
   <section data-scope="ai-rwe">
-    <h2>What changed: the scope held</h2>
+    <h2>THESEUS gives the LLM one bounded job</h2>
 
-    <p>The result of this edition is editorial rather than scientific. A strict intersection gate prevented standalone RWE, generic healthcare AI, and recycled agentic RWE from being presented as fresh news.</p>
+    <p><a href="https://academic.oup.com/jamiaopen/article/9/4/ooag131/8729191" target="_blank" rel="noopener noreferrer">THESEUS, published in <em>JAMIA Open</em> on July 9</a>, uses a different architecture. The model interprets a natural-language target-trial description and maps it into structured JSON. A human can accept or reject field-level changes. Deterministic rules then generate Strategus R code for an OMOP environment.</p>
 
-    <p>The next substantive edition will require a new primary source that advances what is known about agents, LLMs, or foundation models inside the real-world evidence lifecycle. Until then, quiet is the accurate headline.</p>
+    <figure class="evidence-graphic" aria-labelledby="pipeline-title">
+      <p class="graphic-kicker" id="pipeline-title">The model interprets; the compiler executes</p>
+      <div class="pipeline" role="img" aria-label="Target-trial prose flows through LLM extraction, a JSON specification, human review, deterministic compilation, and Strategus R code">
+        <div class="pipe-step"><b>Target-trial prose</b><span>Protocol language and analytic intent.</span></div><span class="pipe-arrow" aria-hidden="true">&rarr;</span>
+        <div class="pipe-step"><b>LLM extraction</b><span>Interpret the prose into supported fields.</span></div><span class="pipe-arrow" aria-hidden="true">&rarr;</span>
+        <div class="pipe-step"><b>JSON specification</b><span>Expose choices in a reviewable schema.</span></div><span class="pipe-arrow" aria-hidden="true">&rarr;</span>
+        <div class="pipe-step"><b>Human review</b><span>Accept or reject individual changes.</span></div><span class="pipe-arrow" aria-hidden="true">&rarr;</span>
+        <div class="pipe-step"><b>Rules + R code</b><span>Compile deterministically into Strategus.</span></div>
+      </div>
+      <figcaption>RWE-Signal workflow graphic based on <a href="https://academic.oup.com/jamiaopen/article/9/4/ooag131/8729191" target="_blank" rel="noopener noreferrer">Kim et al.'s THESEUS architecture</a>.</figcaption>
+    </figure>
 
-    <p><em>Source access note:</em> Public LinkedIn indexing remained incomplete. PubMed records were accessible through indexed pages, while some direct publisher routes remained inconsistent. No qualifying primary source was omitted solely because of an access failure.</p>
+    <p>The separation is the important result. A fluent generated script can hide a changed estimand or unsupported analytic choice. A structured intermediate artifact gives a reviewer something precise to inspect before executable analysis code exists.</p>
+  </section>
+
+  <section data-scope="ai-rwe">
+    <h2>Thirty studies reveal a familiarity advantage</h2>
+
+    <p>The researchers tested eight language models on 30 study descriptions: 15 from the OHDSI ecosystem and 15 from outside it. Primary-analysis specification accuracy ranged from 0.93 to 0.97 for OHDSI studies and from 0.82 to 0.95 for non-OHDSI studies. The wider, lower range outside OHDSI suggests that reporting conventions and ecosystem familiarity still matter.</p>
+
+    <figure class="evidence-graphic" aria-labelledby="comparison-title">
+      <p class="graphic-kicker" id="comparison-title">What the two evaluations actually establish</p>
+      <div class="comparison">
+        <div class="study-card">
+          <h3>EmulatRx &middot; agent handoffs</h3>
+          <div class="metric-row"><div class="metric"><strong>20</strong><span>trial emulations</span></div><div class="metric"><strong>266</strong><span>annotated eligibility concepts</span></div><div class="metric"><strong>98.9%</strong><span>concept-extraction recall</span></div><div class="metric"><strong>96.7%</strong><span>concept-extraction precision</span></div></div>
+          <p>Supports task-level performance and a working multi-agent RWE architecture. Does not establish autonomous causal validity.</p>
+        </div>
+        <div class="study-card">
+          <h3>THESEUS &middot; specification accuracy</h3>
+          <div class="metric-row"><div class="metric"><strong>30</strong><span>study descriptions</span></div><div class="metric"><strong>8</strong><span>language models</span></div><div class="metric"><strong>.93&ndash;.97</strong><span>OHDSI accuracy range</span></div><div class="metric"><strong>.82&ndash;.95</strong><span>non-OHDSI accuracy range</span></div></div>
+          <p>Supports structured protocol interpretation for four specification groups. Does not establish cohort definition or end-to-end study validity.</p>
+        </div>
+      </div>
+      <p class="comparison-note"><strong>Read separately:</strong> the metrics measure different tasks and are not comparable performance scores.</p>
+      <figcaption>RWE-Signal evidence-boundary summary based on the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13341881/" target="_blank" rel="noopener noreferrer">EmulatRx full text</a> and the <a href="https://academic.oup.com/jamiaopen/article/9/4/ooag131/8729191" target="_blank" rel="noopener noreferrer">THESEUS evaluation</a>.</figcaption>
+    </figure>
+
+    <p>THESEUS covers four core specification groups: study period, time at risk, propensity-score adjustment, and outcome modeling. Cohort definition remains outside scope, unsupported analytic choices are excluded, and the study did not test time saved in live analyst workflows. The system is therefore a bounded protocol-to-code aid, not an automated target-trial study.</p>
+  </section>
+
+  <section class="closing" data-scope="ai-rwe">
+    <h2>What changed: architecture became part of the evidence</h2>
+
+    <p>The new signal is not that an LLM can produce RWE on demand. It is that two research teams made the model's role explicit enough to evaluate. EmulatRx distributes responsibility across specialized agents and records the handoffs. THESEUS confines model judgment to protocol interpretation, inserts human review, and makes code generation deterministic.</p>
+
+    <p>The practical question is shifting from <em>Can the model do the task?</em> to <em>Can every consequential choice be inspected, challenged, and reproduced?</em> That is a more demanding test&mdash;and a more useful one for real-world evidence.</p>
+
+    <p class="source-note">Source access note: the EmulatRx publisher page intermittently redirected to sign-in; the complete peer-reviewed text was verified through PubMed Central. The THESEUS journal article was directly accessible. Public LinkedIn indexing remained incomplete.</p>
   </section>
 </article>
 </body>

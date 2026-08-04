@@ -1,4 +1,4 @@
-# External RWE Signal Watch
+# RWE-Signal
 
 These instructions apply to the entire repository.
 

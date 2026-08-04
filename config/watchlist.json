@@ -1,5 +1,5 @@
 {
-  "name": "External RWE Signal Watch",
+  "name": "RWE-Signal",
   "updated": "2026-08-04",
   "policy": {
     "public_web_only": true,

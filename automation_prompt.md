@@ -1,6 +1,6 @@
 # Daily automation prompt
 
-Run today's External RWE Signal Watch from this project directory.
+Run today's RWE-Signal briefing from this project directory.
 
 Read and follow `AGENTS.md` completely. Load all configuration and persistent state before searching. Research the previous 48 hours for posts and news and the previous 14 days for papers, conference materials, regulatory updates, and other slow-moving primary sources. Search the named external experts first, then institutional feeds, then thematic queries.
 

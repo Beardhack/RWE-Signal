@@ -1,4 +1,4 @@
-# External RWE Signal Watch
+# RWE-Signal
 
 A daily, source-linked briefing on high-signal public work at the intersection of frontier AI, real-world evidence, HIPAA Expert Determination, and healthcare tokenization.
 

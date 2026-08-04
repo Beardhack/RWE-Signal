@@ -118,7 +118,7 @@ def main() -> int:
     index_path = ROOT / "site/index.html"
     if index_path.is_file():
         index_text = index_path.read_text(encoding="utf-8")
-        if "External RWE Signal Watch" not in index_text:
+        if "RWE-Signal" not in index_text:
             errors.append("site/index.html: missing publication name")
         if "watchlist/" not in index_text:
             errors.append("site/index.html: missing watchlist navigation")

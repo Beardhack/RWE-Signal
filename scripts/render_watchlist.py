@@ -51,14 +51,14 @@ def main() -> int:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="People and public sources monitored by External RWE Signal Watch.">
-  <title>Who to follow — External RWE Signal Watch</title>
+  <meta name="description" content="People and public sources monitored by RWE-Signal.">
+  <title>Who to follow — RWE-Signal</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <main class="shell">
     <header class="masthead">
-      <a class="brand" href="../">External RWE Signal Watch</a>
+      <a class="brand" href="../">RWE-Signal</a>
       <nav class="nav" aria-label="Publication navigation"><a href="../">Latest</a><a href="../editions/">Editions</a></nav>
     </header>
     <header class="hero">

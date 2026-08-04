@@ -2,7 +2,7 @@
 
 A daily, source-linked newspaper on real-world evidence: the methods, regulation, data quality, privacy, linkage, and AI systems changing how evidence is produced and judged.
 
-The publication follows the editorial and visual pattern of AI Daily Ledger: a reported lead, evidence-led analysis, restrained newspaper typography, permanent editions, and automatic deployment through GitHub Pages.
+The publication follows the editorial and visual pattern of AI Daily Ledger: a reported lead, evidence-led analysis, restrained newspaper typography, two or three sourced editorial visuals per substantive edition, permanent editions, and automatic deployment through GitHub Pages.
 
 ## What it tracks
 

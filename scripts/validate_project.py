@@ -123,6 +123,22 @@ def main() -> int:
         if "All editions" not in index_text:
             errors.append("site/index.html: missing editions navigation")
 
+    editions_root = ROOT / "site/editions"
+    if editions_root.is_dir():
+        for edition_path in editions_root.glob("*/index.html"):
+            edition_text = edition_path.read_text(encoding="utf-8")
+            no_signal = re.search(r"no new high-signal", edition_text, re.IGNORECASE)
+            figure_count = len(re.findall(r"<figure\b", edition_text, re.IGNORECASE))
+            caption_count = len(re.findall(r"<figcaption\b", edition_text, re.IGNORECASE))
+            if not no_signal and not 2 <= figure_count <= 3:
+                errors.append(
+                    f"{edition_path.relative_to(ROOT)}: expected 2-3 evidence visuals, found {figure_count}"
+                )
+            if figure_count != caption_count:
+                errors.append(
+                    f"{edition_path.relative_to(ROOT)}: every figure must have one source caption"
+                )
+
     editions_index = ROOT / "site/editions/index.html"
     if editions_index.is_file():
         text = editions_index.read_text(encoding="utf-8")

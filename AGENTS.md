@@ -124,6 +124,15 @@ Each edition must contain:
 7. a source-health note when meaningful sources were inaccessible; and
 8. on Fridays, a compact weekly synthesis of repeated themes and contradictions.
 
+Each substantive edition must also contain two or three evidence-led visuals. Do not force a visual into every section. Prefer native, responsive HTML/CSS charts, comparison tables, timelines, process diagrams, or other editorial graphics derived from the reported evidence. Use screenshots only when the appearance of the original post or document is itself newsworthy and a clean, legible crop can be made.
+
+- Every visual must advance the reporting rather than decorate the page.
+- Anchor every visual to one or more verified sources and include a concise source caption. Clearly label editorial synthesis or inference as such.
+- Include a quantitative visual when the edition contains decision-relevant numerical evidence; use comparison or process graphics when numbers are not the clearest form.
+- Make visuals accessible and responsive: use semantic figure markup, a useful accessible label, readable text, and a mobile layout with no horizontal overflow.
+- Never invent missing values, imply false precision, or turn incomparable measures into a common scale.
+- A no-new-signal edition may omit visuals rather than manufacture them.
+
 Internal scores never appear in public HTML or the public daily report. Do not mention employer exclusions, the watchlist-selection process, search windows, deduplication, configuration, automation, or publishing mechanics in a public edition. Do not pad a quiet day with old or weak material; older sources may be used only as clearly dated context for a genuinely current development.
 
 Do not claim completeness. Do not imply that lack of an indexed LinkedIn post means the person did not post.

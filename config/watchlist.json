@@ -1,0 +1,441 @@
+{
+  "name": "External RWE Signal Watch",
+  "updated": "2026-08-04",
+  "policy": {
+    "public_web_only": true,
+    "exclude_current_datavant_employees": true,
+    "social_actions_allowed": false,
+    "manual_following_recommended": true
+  },
+  "people": [
+    {
+      "name": "Marie Bradley",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "FDA regulatory RWE",
+      "topics": ["FDA", "RWE", "regulatory acceptance", "AI evaluation"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/marie-bradley-9b11a736"},
+        {"label": "FDA RWE", "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence"}
+      ]
+    },
+    {
+      "name": "Anindita Annie Saha",
+      "search_aliases": ["Anindita Saha", "Annie Saha"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "FDA digital health and AI policy",
+      "topics": ["FDA", "digital health", "AI lifecycle", "regulatory pilots"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/anindita-annie-saha-9754568"},
+        {"label": "FDA Digital Health", "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence"}
+      ]
+    },
+    {
+      "name": "Hussein Ezzeldin",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Regulatory science",
+      "topics": ["FDA", "phenotyping", "rare events", "synthetic data"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/hezzeldin"}]
+    },
+    {
+      "name": "Rachele Hendricks-Sturrup",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "RWE policy and governance",
+      "topics": ["RWE policy", "data fitness", "governance", "standards"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/dr-rachele-hendricks-sturrup-75216a50"},
+        {"label": "Duke profile", "url": "https://healthpolicy.duke.edu/people/rachele-hendricks-sturrup-dhsc-msc-ma-facts"}
+      ]
+    },
+    {
+      "name": "Rachael Fleurence",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "AI evaluation for HEOR and RWE",
+      "topics": ["ELEVATE-GenAI", "HEOR", "evaluation", "reporting standards"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/rachael-fleurence-ph-d-6b7b2b1b6"},
+        {"label": "ELEVATE-GenAI", "url": "https://www.valueinhealthjournal.com/article/S1098-3015%2825%2902455-6/fulltext"}
+      ]
+    },
+    {
+      "name": "Chunhua Weng",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Agentic RWE and clinical research informatics",
+      "topics": ["agentic RWE", "phenotyping", "eligibility criteria", "evidence computing"],
+      "sources": [
+        {"label": "X", "url": "https://x.com/nychunhua"},
+        {"label": "Columbia", "url": "https://www.dbmi.columbia.edu/profile/chunhua-weng/"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=bBf6Ff4AAAAJ"}
+      ]
+    },
+    {
+      "name": "Richard D. Boyce",
+      "search_aliases": ["Richard Boyce"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Trustworthy agentic RWE",
+      "topics": ["agentic RWE", "pharmacovigilance", "provenance", "human accountability"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/boycer"},
+        {"label": "Pitt", "url": "https://www.dbmi.pitt.edu/directory/name/richard-boyce/"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=cmWWPNcAAAAJ"}
+      ]
+    },
+    {
+      "name": "Fei Wang",
+      "search_aliases": ["Fei Wang Weill Cornell"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Multi-agent biomedical AI",
+      "topics": ["multi-agent AI", "EHR analytics", "EmulatRx"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/fei-wang-50682425"},
+        {"label": "Wang Lab", "url": "https://wcm-wanglab.github.io/"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=FjCbjDYAAAAJ"}
+      ]
+    },
+    {
+      "name": "Chengxi Zang",
+      "search_aliases": ["Calvin Zang"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Agentic trial emulation",
+      "topics": ["trial emulation", "LLMs", "clinical research", "EmulatRx"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/calvinzang"},
+        {"label": "X", "url": "https://x.com/calvin_zcx"}
+      ]
+    },
+    {
+      "name": "Tom Dougherty",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Sponsor-side tokenization",
+      "topics": ["tokenization", "governance", "validation", "long-term follow-up"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/tom-dougherty-71306825"},
+        {"label": "Clinical Leader interview", "url": "https://www.clinicalleader.com/doc/where-are-we-with-clinical-trial-tokenization-0001"}
+      ]
+    },
+    {
+      "name": "Serena Jingchuan Guo",
+      "search_aliases": ["Serena Guo"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Causal-principled AI and target trials",
+      "topics": ["target-trial emulation", "causal AI", "treatment effects", "EMULATE"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/serena-jingchuan-guo-002a60190"},
+        {"label": "University of Florida", "url": "https://pharmacy.ufl.edu/profile/guo-serena/"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=toWLQcsAAAAJ"}
+      ]
+    },
+    {
+      "name": "Zhaoling Meng",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "AI-supported trial design",
+      "topics": ["trial eligibility", "RWD", "safety assessment", "generalizability"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/zhaoling-meng-6a32036"}]
+    },
+    {
+      "name": "John Diaz-Decaro",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "High-frequency causal and agentic RWE discovery",
+      "topics": ["agentic RWE", "causal inference", "MCP", "validation", "open source"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/jdiazdecaro"},
+        {"label": "Black Swan Causal Labs", "url": "https://blackswancausallabs.com/"},
+        {"label": "Reading digest", "url": "https://blackswancausallabs.com/reading-list.html"}
+      ]
+    },
+    {
+      "name": "Christina Mack",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Applied regulatory-grade RWE",
+      "topics": ["epidemiology", "fit-for-purpose data", "FDA decisions", "AI science"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/christina-mack"}]
+    },
+    {
+      "name": "Leo Russo",
+      "search_aliases": ["Leo Russo RWE"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Trial-emulation synthesis",
+      "topics": ["trial emulation", "RWD trial design", "methods"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/leo-russo-phd-b940a95"}]
+    },
+    {
+      "name": "Khaled El Emam",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Quantitative de-identification",
+      "topics": ["re-identification risk", "Expert Determination", "synthetic data", "PETs"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/kelemam"},
+        {"label": "University of Ottawa", "url": "https://www.uottawa.ca/faculty-medicine/directory/dr-khaled-el-emam"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=_JApRIwAAAAJ"}
+      ]
+    },
+    {
+      "name": "Bradley Malin",
+      "search_aliases": ["Brad Malin"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Biomedical privacy engineering",
+      "topics": ["re-identification", "health-data privacy", "AI governance"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/brad-malin-6520ba3"},
+        {"label": "Vanderbilt", "url": "https://www.isis.vanderbilt.edu/team/365"}
+      ]
+    },
+    {
+      "name": "Shubh Sinha",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Productized Expert Determination",
+      "topics": ["Expert Determination", "clinical text", "AI training", "continuous reassessment"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/shubhsinha"},
+        {"label": "Integral blog", "url": "https://www.useintegral.com/blog"}
+      ]
+    },
+    {
+      "name": "Brian Rasquinha",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Linkage, tokenization, and de-identification",
+      "topics": ["composition risk", "tokenization", "Expert Determination", "implementation"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://ca.linkedin.com/in/brasquinha"},
+        {"label": "Privacy Analytics", "url": "https://privacy-analytics.com/resources/webinars/linkage-tokenization-and-de-identification"}
+      ]
+    },
+    {
+      "name": "Yiğit Gül",
+      "search_aliases": ["Yigit Gul"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Clinical-text de-identification engineering",
+      "topics": ["quasi-identifiers", "clinical NLP", "risk metrics", "de-identification tooling"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://tr.linkedin.com/in/n-yigit-gul"},
+        {"label": "John Snow Labs", "url": "https://www.johnsnowlabs.com/author/yigit-gul/"}
+      ]
+    },
+    {
+      "name": "Kristen Hahn",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Empirical linkage performance",
+      "topics": ["tokenized linkage", "patient-mediated retrieval", "longitudinal completeness"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/kristenhahn"},
+        {"label": "PicnicResearch", "url": "https://www.linkedin.com/company/picnicresearch"}
+      ]
+    },
+    {
+      "name": "Ashley Cogell",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Linkage completeness and analytics",
+      "topics": ["token quality", "longitudinal RWD", "observability"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/ashley-cogell"},
+        {"label": "PicnicResearch", "url": "https://www.linkedin.com/company/picnicresearch"}
+      ]
+    },
+    {
+      "name": "Reema Patel",
+      "search_aliases": ["Reema Patel RWE"],
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Evidence-generation operations",
+      "topics": ["RWE", "tokenized linkage", "longitudinal studies"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/reemapatelmph"}]
+    },
+    {
+      "name": "Scott Alexander Malec",
+      "search_aliases": ["Scott Malec"],
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Agentic RWE and causal knowledge",
+      "topics": ["selection bias", "confounding", "causal knowledge", "agentic RWE"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/scottalexandermalec"},
+        {"label": "UNM", "url": "https://datascience.unm.edu/faculty/scott-alexander-malec/"},
+        {"label": "ORCID", "url": "https://orcid.org/0000-0003-1696-1781"}
+      ]
+    },
+    {
+      "name": "Weishen Pan",
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Technical trial-emulation systems",
+      "topics": ["EmulatRx", "multi-agent systems", "trial design"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/weishenpan"},
+        {"label": "Weill Cornell", "url": "https://vivo.weill.cornell.edu/display/cwid-wep4001"}
+      ]
+    },
+    {
+      "name": "Haoyang Li",
+      "search_aliases": ["Haoyang Li EmulatRx"],
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "EmulatRx implementation",
+      "topics": ["EmulatRx", "multi-agent biomedical AI"],
+      "sources": [{"label": "EmulatRx paper", "url": "https://www.nature.com/articles/s41467-026-74501-2"}]
+    },
+    {
+      "name": "Suraj Rajendran",
+      "search_aliases": ["Suraj Rajendran biomedical AI"],
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Computational biomedical AI",
+      "topics": ["biomedical AI", "RWE methods"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/suraj-rajendran"}]
+    },
+    {
+      "name": "Erin Wasserman",
+      "search_aliases": ["Erin Wasserman RWE"],
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Applied regulatory RWE",
+      "topics": ["regulatory evidence", "study execution", "RWE"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/erin-wasserman-2b8b6919"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=k4A2ul0AAAAJ"}
+      ]
+    },
+    {
+      "name": "Michael Fronstin",
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Agentic RWD analytics validation",
+      "topics": ["ELEVATE-GenAI", "autonomous analytics", "validation"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/michaelfronstin"},
+        {"label": "ISPOR poster", "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-5-3/application-of-the-elevate-genai-framework-to-an-ai-agentic-system-for-data-analytics"}
+      ]
+    },
+    {
+      "name": "Elise Berliner",
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Independent RWE validation",
+      "topics": ["patient registries", "RWE", "agentic analytics validation"],
+      "sources": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/elise-berliner"}]
+    },
+    {
+      "name": "Jessica Santos",
+      "search_aliases": ["Jessica Santos HEOR"],
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "AI governance and compliance",
+      "topics": ["AI governance", "privacy", "compliance", "RWD analytics"],
+      "sources": [{"label": "LinkedIn", "url": "https://uk.linkedin.com/in/jessicasantos-compliance"}]
+    },
+    {
+      "name": "Daniel Barth-Jones",
+      "priority": 2,
+      "follow_manually": false,
+      "lane": "Statistical de-identification",
+      "topics": ["Expert Determination", "re-identification risk", "HIPAA"],
+      "sources": [{"label": "Google Scholar search", "url": "https://scholar.google.com/scholar?q=%22Daniel+Barth-Jones%22"}]
+    },
+    {
+      "name": "Dalia Dawoud",
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "ELEVATE-GenAI publication watch",
+      "topics": ["ELEVATE-GenAI", "HEOR", "evaluation"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Dalia+Dawoud%22"}]
+    },
+    {
+      "name": "Jiang Bian",
+      "search_aliases": ["Jiang Bian biomedical informatics"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Biomedical AI evaluation",
+      "topics": ["ELEVATE-GenAI", "biomedical informatics", "RWD"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Jiang+Bian%22"}]
+    },
+    {
+      "name": "Mitchell Higashi",
+      "search_aliases": ["Mitch Higashi"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "HEOR AI evaluation",
+      "topics": ["ELEVATE-GenAI", "HEOR", "reporting standards"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Mitchell+Higashi%22"}]
+    },
+    {
+      "name": "Hua Xu",
+      "search_aliases": ["Hua Xu biomedical informatics"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Clinical NLP and AI evaluation",
+      "topics": ["ELEVATE-GenAI", "clinical NLP", "RWE"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Hua+Xu%22+biomedical"}]
+    },
+    {
+      "name": "Jagpreet Chhatwal",
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "HEOR and decision science",
+      "topics": ["ELEVATE-GenAI", "HEOR", "decision science"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Jagpreet+Chhatwal%22"}]
+    },
+    {
+      "name": "Turgay Ayer",
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Healthcare analytics evaluation",
+      "topics": ["ELEVATE-GenAI", "healthcare analytics", "AI evaluation"],
+      "sources": [{"label": "Google Scholar search", "url": "https://scholar.google.com/scholar?q=%22Turgay+Ayer%22"}]
+    },
+    {
+      "name": "Gabriel Innes",
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Publication and conference watch",
+      "topics": ["RWE", "agentic analytics", "HEOR"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Gabriel+Innes%22"}]
+    },
+    {
+      "name": "Wei Liu",
+      "search_aliases": ["Wei Liu agentic RWE"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Publication and conference watch",
+      "topics": ["agentic RWE", "HEOR", "RWD analytics"],
+      "sources": [{"label": "ISPOR search", "url": "https://www.ispor.org/heor-resources/presentations-database/search"}]
+    },
+    {
+      "name": "Ipek Özer Stillman",
+      "search_aliases": ["Ipek Ozer Stillman"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "Publication and conference watch",
+      "topics": ["RWE", "HEOR", "AI evaluation"],
+      "sources": [{"label": "ISPOR search", "url": "https://www.ispor.org/heor-resources/presentations-database/search"}]
+    },
+    {
+      "name": "Xiaoyan Wang",
+      "search_aliases": ["Xiaoyan Wang ELEVATE GenAI"],
+      "priority": 3,
+      "follow_manually": false,
+      "lane": "ELEVATE-GenAI publication watch",
+      "topics": ["ELEVATE-GenAI", "RWD analytics", "validation"],
+      "sources": [{"label": "PubMed search", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22Xiaoyan+Wang%22+RWE"}]
+    }
+  ]
+}

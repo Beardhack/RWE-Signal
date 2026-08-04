@@ -1,0 +1,19 @@
+{
+  "updated": "2026-08-04",
+  "post_window_hours": 48,
+  "publication_window_days": 14,
+  "queries": [
+    {"lane": "agentic-rwe", "query": "(agentic OR multi-agent OR LLM) (real-world evidence OR real-world data OR RWE)"},
+    {"lane": "causal", "query": "(agentic OR LLM OR AI) (target trial emulation OR causal inference OR estimand) healthcare"},
+    {"lane": "clinical-research", "query": "(AI agent OR multi-agent) (cohort construction OR phenotyping OR eligibility criteria) clinical research"},
+    {"lane": "evaluation", "query": "(ELEVATE-GenAI OR generative AI) (HEOR OR RWE) evaluation validation reproducibility"},
+    {"lane": "expert-determination", "query": "\"Expert Determination\" (HIPAA OR health data OR de-identification)"},
+    {"lane": "reidentification", "query": "(re-identification risk OR quasi-identifier OR population uniqueness) health data"},
+    {"lane": "unstructured", "query": "(clinical text OR unstructured health data) (de-identification OR Expert Determination)"},
+    {"lane": "tokenization", "query": "(healthcare tokenization OR privacy-preserving record linkage) (validation OR match rate OR longitudinal)"},
+    {"lane": "identity", "query": "(patient matching OR identity resolution OR token degradation OR broken token) healthcare RWD"},
+    {"lane": "regulatory", "query": "site:fda.gov (real-world evidence OR real-world data) (AI OR machine learning OR generative AI)"},
+    {"lane": "conferences", "query": "site:ispor.org (agentic OR tokenization OR de-identification) (RWE OR RWD OR HEOR)"},
+    {"lane": "publications", "query": "site:pubmed.ncbi.nlm.nih.gov (agentic AI OR tokenization OR Expert Determination) (RWE OR health data)"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "updated": "2026-08-04",
+  "feeds": [
+    {"name": "FDA Real-World Evidence", "type": "regulator", "priority": 1, "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence"},
+    {"name": "FDA CDER RWE submissions", "type": "regulator", "priority": 1, "url": "https://www.fda.gov/science-research/real-world-evidence/real-world-evidence-submissions-center-drug-evaluation-and-research"},
+    {"name": "FDA Digital Health Center of Excellence", "type": "regulator", "priority": 1, "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence"},
+    {"name": "HHS HIPAA de-identification guidance", "type": "regulator", "priority": 1, "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html"},
+    {"name": "Duke-Margolis RWE", "type": "research center", "priority": 1, "url": "https://healthpolicy.duke.edu/topics/real-world-evidence"},
+    {"name": "ISPOR presentations", "type": "conference", "priority": 1, "url": "https://www.ispor.org/heor-resources/presentations-database/search"},
+    {"name": "ISPOR RWE program", "type": "professional society", "priority": 1, "url": "https://www.ispor.org/strategic-initiatives/topics/real-world-evidence"},
+    {"name": "JBI agentic RWE special issue", "type": "journal", "priority": 1, "url": "https://www.sciencedirect.com/special-issue/334546/agentic-ai-for-real-world-evidence-life-cycle-support-scaling-trustworthy-evaluation-of-treatment-safety-and-effectiveness"},
+    {"name": "Value in Health", "type": "journal", "priority": 1, "url": "https://www.valueinhealthjournal.com/"},
+    {"name": "PubMed", "type": "literature index", "priority": 1, "url": "https://pubmed.ncbi.nlm.nih.gov/"},
+    {"name": "Black Swan RWE and causal inference digest", "type": "expert digest", "priority": 1, "url": "https://blackswancausallabs.com/reading-list.html"},
+    {"name": "Integral blog", "type": "company research blog", "priority": 2, "url": "https://www.useintegral.com/blog"},
+    {"name": "Privacy Analytics resources", "type": "company research library", "priority": 2, "url": "https://privacy-analytics.com/resources/"},
+    {"name": "John Snow Labs healthcare AI", "type": "company research blog", "priority": 2, "url": "https://www.johnsnowlabs.com/author/yigit-gul/"},
+    {"name": "PicnicResearch LinkedIn", "type": "company social feed", "priority": 2, "url": "https://www.linkedin.com/company/picnicresearch"},
+    {"name": "Clinical Leader", "type": "trade publication", "priority": 2, "url": "https://www.clinicalleader.com/"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "updated": "2026-08-04",
+  "rules": [
+    "Exclude anyone currently employed by Datavant.",
+    "Exclude Datavant-authored blogs, webinars, marketing pages, and social posts.",
+    "Do not use confidential or internal Datavant information."
+  ],
+  "known_do_not_track_from_seed_research": [
+    "Katie Mues",
+    "Nicolle Gatto",
+    "Ulka Campbell",
+    "David Williamson",
+    "Lucy Mosquera",
+    "Leo Rogers"
+  ]
+}

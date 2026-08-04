@@ -7,8 +7,11 @@
     "Nature Communications": {"status": "ok", "last_checked": "2026-08-04"},
     "BMJ": {"status": "partial", "last_checked": "2026-08-04", "note": "HTML fetch was inconsistent; indexed article text and the publisher PDF were available."},
     "PubMed": {"status": "partial", "last_checked": "2026-08-04", "note": "Some pages presented anti-bot interstitials; accessible publisher pages were used where available."},
-    "ScienceDirect": {"status": "partial", "last_checked": "2026-08-04", "note": "The dedicated special-issue page was intermittently inaccessible; the journal announcement and PubMed editorial record corroborated the call."},
-    "LinkedIn": {"status": "partial", "last_checked": "2026-08-04", "note": "Public indexing is incomplete."}
+    "ScienceDirect": {"status": "partial", "last_checked": "2026-08-04", "note": "The dedicated special-issue page and one current PPRL article were intermittently inaccessible; inaccessible items were omitted unless independently verified."},
+    "LinkedIn": {"status": "partial", "last_checked": "2026-08-04", "note": "Public indexing is incomplete."},
+    "PMC": {"status": "ok", "last_checked": "2026-08-04"},
+    "EDPB": {"status": "ok", "last_checked": "2026-08-04"},
+    "BMC": {"status": "partial", "last_checked": "2026-08-04", "note": "The direct full-text page for one current article was inaccessible; the complete PubMed-indexed abstract was available."}
   },
   "note": "Source limitations are tracked without treating an inaccessible social page as evidence that no post exists."
 }

@@ -1,8 +1,8 @@
 # RWE-Signal
 
-A daily, source-linked briefing on high-signal public work at the intersection of frontier AI, real-world evidence, HIPAA Expert Determination, and healthcare tokenization.
+A daily, source-linked newspaper on real-world evidence: the methods, regulation, data quality, privacy, linkage, and AI systems changing how evidence is produced and judged.
 
-The project follows the publishing pattern of AI Daily Ledger: reviewed static HTML, Markdown source notes, persistent deduplication state, and automatic deployment through GitHub Pages.
+The publication follows the editorial and visual pattern of AI Daily Ledger: a reported lead, evidence-led analysis, restrained newspaper typography, permanent editions, and automatic deployment through GitHub Pages.
 
 ## What it tracks
 
@@ -11,7 +11,7 @@ The project follows the publishing pattern of AI Daily Ledger: reviewed static H
 - Expert Determination, de-identification, and re-identification risk
 - Privacy-preserving patient matching, tokenization, and data-linkage quality
 
-Datavant employees and Datavant-authored material are deliberately excluded. Research is public-web and read-only; it never follows, connects, reacts, comments, or messages on the user's behalf.
+Research is public-web and read-only; it never follows, connects, reacts, comments, or messages on the user's behalf.
 
 ## Local validation
 
@@ -27,7 +27,7 @@ bash scripts/check-publication.sh
 
 ## Publishing a new edition
 
-The scheduled Codex task reads `AGENTS.md` and `automation_prompt.md`, searches the configured sources, deduplicates against `state/seen_items.jsonl`, and writes:
+The scheduled Codex task reads `AGENTS.md` and `automation_prompt.md`, researches current developments, verifies primary sources, and writes:
 
 - `sources/<slug>.md`
 - `reports/daily/<slug>.md`

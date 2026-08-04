@@ -1,5 +1,14 @@
 {
   "updated": "2026-08-04",
-  "sources": {},
-  "note": "Populated by the first scheduled research run."
+  "sources": {
+    "arXiv": {"status": "ok", "last_checked": "2026-08-04"},
+    "FDA": {"status": "ok", "last_checked": "2026-08-04"},
+    "Oxford Academic": {"status": "ok", "last_checked": "2026-08-04"},
+    "Nature Communications": {"status": "ok", "last_checked": "2026-08-04"},
+    "BMJ": {"status": "partial", "last_checked": "2026-08-04", "note": "HTML fetch was inconsistent; indexed article text and the publisher PDF were available."},
+    "PubMed": {"status": "partial", "last_checked": "2026-08-04", "note": "Some pages presented anti-bot interstitials; accessible publisher pages were used where available."},
+    "ScienceDirect": {"status": "partial", "last_checked": "2026-08-04", "note": "The dedicated special-issue page was intermittently inaccessible; the journal announcement and PubMed editorial record corroborated the call."},
+    "LinkedIn": {"status": "partial", "last_checked": "2026-08-04", "note": "Public indexing is incomplete."}
+  },
+  "note": "Source limitations are tracked without treating an inaccessible social page as evidence that no post exists."
 }

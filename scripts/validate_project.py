@@ -120,8 +120,8 @@ def main() -> int:
         index_text = index_path.read_text(encoding="utf-8")
         if "RWE-Signal" not in index_text:
             errors.append("site/index.html: missing publication name")
-        if "watchlist/" not in index_text:
-            errors.append("site/index.html: missing watchlist navigation")
+        if "All editions" not in index_text:
+            errors.append("site/index.html: missing editions navigation")
 
     editions_index = ROOT / "site/editions/index.html"
     if editions_index.is_file():

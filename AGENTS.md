@@ -81,7 +81,7 @@ Score each candidate out of 10:
 - relevance to the watch topics: 0–3;
 - evidence quality and primary-source support: 0–3;
 - novelty or decision value: 0–2;
-- useful external viewpoint for a Datavant reader: 0–1;
+- practical decision value for an RWE reader: 0–1;
 - timeliness: 0–1.
 
 Apply penalties after the subtotal:
@@ -95,14 +95,22 @@ Include items scoring 6 or higher. Lead items should normally score 8 or higher.
 
 ## Daily edition format
 
+The public edition is a newspaper-style analysis, not a research log, scorecard, watchlist update, or explanation of the automation. Keep scoring, exclusions, search process, and source-management logic backstage in `sources/`, state, and configuration files.
+
+Match the visual and editorial language of AI Daily Ledger: one large uppercase headline, a precise deck, a short dateline, an executive opening, and continuous reported prose divided by strong section headlines. Use the restrained beige-paper layout and inline CSS established by the reference ledger. Do not use cards, score badges, topic tags, ranked-item labels, or public methodology copy.
+
 Each edition must contain:
 
 1. a specific, non-clickbait headline;
-2. a one-paragraph executive readout;
-3. 1–7 ranked items, each with the direct source link, author or institution, date, topic label, score, what happened, why it matters, evidence limits, and practical follow-up question;
-4. a “What changed” section that distinguishes new signal from recurring themes;
-5. a source-health note when meaningful sources were inaccessible;
-6. on Fridays, a compact weekly synthesis of repeated themes and contradictions.
+2. a one-sentence deck that explains the editorial through-line;
+3. a two-to-four paragraph executive readout;
+4. one to five reported sections in descending importance, written as analysis rather than item cards;
+5. direct source links embedded where the claims appear, with publication dates and evidence limits stated naturally in the prose;
+6. a concluding section that distinguishes genuinely new signal from recurring themes;
+7. a source-health note when meaningful sources were inaccessible; and
+8. on Fridays, a compact weekly synthesis of repeated themes and contradictions.
+
+Internal scores never appear in public HTML or the public daily report. Do not mention employer exclusions, the watchlist-selection process, search windows, deduplication, configuration, automation, or publishing mechanics in a public edition. Do not pad a quiet day with old or weak material; older sources may be used only as clearly dated context for a genuinely current development.
 
 Do not claim completeness. Do not imply that lack of an indexed LinkedIn post means the person did not post.
 

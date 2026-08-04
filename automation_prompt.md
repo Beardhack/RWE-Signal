@@ -1,13 +1,15 @@
 # Daily automation prompt
 
-Run today's RWE-Signal briefing from this project directory.
+Run today's RWE-Signal newspaper from this project directory.
 
 Read and follow `AGENTS.md` completely. Load all configuration and persistent state before searching. Research the previous 48 hours for posts and news and the previous 14 days for papers, conference materials, regulatory updates, and other slow-moving primary sources. Search the named external experts first, then institutional feeds, then thematic queries.
 
-Verify, score, and deduplicate every candidate. Exclude current Datavant employees and Datavant-authored material. Use public sources only and remain read-only on social platforms. Never manufacture an edition: if no candidate reaches the inclusion threshold, publish a concise no-new-signal edition with source-health notes.
+Verify, score, and deduplicate every candidate. Apply all internal source exclusions from `AGENTS.md`. Use public sources only and remain read-only on social platforms. Never manufacture an edition: if no candidate reaches the inclusion threshold, publish a concise no-new-signal edition with source-health notes.
+
+Write the public edition as an RWE newspaper, closely matching AI Daily Ledger in look and feel: a large uppercase headline, a one-sentence deck, a short dateline, a crisp executive opening, and reported narrative sections separated by heavy rules. Lead with what changed and what the evidence means. Embed direct links in the prose and state limitations naturally. Do not publish scores, rankings, search logic, watchlist logic, employer exclusions, configuration details, automation instructions, or explanations of how the project works. The public page is the journalism, never the machinery behind it.
 
 Create the Markdown source notes, daily report, public HTML edition, latest homepage, edition index entry, and state updates required by `AGENTS.md`. On Friday, include the weekly synthesis. Preserve all existing history.
 
 Run the validation and privacy checks. Inspect the final diff. If checks pass, commit only this run's files with `Publish RWE signal watch <slug>` and push `main` so GitHub Pages deploys the edition. If authentication, permissions, or a publication check blocks the push, do not bypass it; leave the reviewed files locally and report the exact blocker.
 
-In the task result, summarize the highest-signal findings, link the new edition when the public URL is known, list meaningful source-access failures, and state whether the commit and push succeeded.
+In the task result, summarize the lead finding, link the new edition when the public URL is known, list meaningful source-access failures, and state whether the commit and push succeeded.

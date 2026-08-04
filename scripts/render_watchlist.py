@@ -64,14 +64,14 @@ def main() -> int:
     <header class="hero">
       <p class="eyebrow">Curated public watchlist · {len(people)} people</p>
       <h1>Who to follow</h1>
-      <p class="dek">Outside-Datavant experts spanning regulation, agentic evidence generation, causal methods, de-identification, privacy engineering, and patient-level linkage.</p>
+      <p class="dek">Experts spanning regulation, agentic evidence generation, causal methods, de-identification, privacy engineering, and patient-level linkage.</p>
       <p class="meta">Follow actions are manual. Automated research stays read-only.</p>
     </header>
     <div class="content">
       <div class="callout"><p><strong>Coverage note:</strong> public search cannot guarantee complete LinkedIn coverage. The ledger pairs social profiles with institutional pages, journals, conference records, and publication searches wherever possible.</p></div>
       {''.join(sections)}
     </div>
-    <footer class="footer"><p>Datavant employees and Datavant-authored sources are excluded.</p><p><a href="../">Latest edition</a></p></footer>
+    <footer class="footer"><p>Profiles and public sources are monitored read-only.</p><p><a href="../">Latest edition</a></p></footer>
   </main>
 </body>
 </html>

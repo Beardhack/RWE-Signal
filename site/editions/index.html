@@ -3,27 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Archive of RWE-Signal daily editions.">
-  <title>Editions — RWE-Signal</title>
-  <link rel="stylesheet" href="../assets/style.css">
+  <meta name="description" content="Archive of RWE-Signal editions.">
+  <title>RWE-Signal — Editions</title>
+  <style>
+    :root { color-scheme: light; --ink: #171717; --paper: #fffdf8; --muted: #66635e; --link: #174e78; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eee9df; color: var(--ink); font: 18px/1.65 Georgia, "Times New Roman", serif; }
+    main { width: min(760px, calc(100% - 32px)); min-height: 100vh; margin: 0 auto; padding: clamp(36px, 8vw, 90px); background: var(--paper); }
+    h1 { margin: 0 0 12px; font: 800 clamp(2.6rem, 9vw, 5.5rem)/.92 Arial, Helvetica, sans-serif; letter-spacing: -.055em; text-transform: uppercase; }
+    .dek { margin: 0 0 54px; color: var(--muted); font-family: Arial, Helvetica, sans-serif; }
+    ol { margin: 0; padding: 0; list-style: none; border-top: 4px solid var(--ink); }
+    li { padding: 24px 0; border-bottom: 1px solid #d9d2c5; }
+    a { color: var(--link); font: 700 1.25rem/1.3 Arial, Helvetica, sans-serif; text-underline-offset: 4px; }
+    small { display: block; margin-top: 7px; color: var(--muted); font-family: Arial, Helvetica, sans-serif; }
+  </style>
 </head>
 <body>
-  <main class="shell">
-    <header class="masthead">
-      <a class="brand" href="../">RWE-Signal</a>
-      <nav class="nav" aria-label="Publication navigation"><a href="../">Latest</a><a href="../watchlist/">Who to follow</a></nav>
-    </header>
-    <header class="hero">
-      <p class="eyebrow">Archive</p>
-      <h1>Every edition, in order</h1>
-      <p class="dek">Daily research notes are kept as permanent, source-linked snapshots. Quiet days stay visible too.</p>
-    </header>
-    <section class="content">
-      <ul class="edition-list">
-        <li><time datetime="2026-08-04">August 4, 2026</time><a href="2026-08-04/">Start with people who change decisions</a></li>
-      </ul>
-    </section>
-    <footer class="footer"><p>RWE-Signal</p><p><a href="../">Latest edition</a></p></footer>
+  <main>
+    <h1>RWE-Signal</h1>
+    <p class="dek">Published editions</p>
+    <ol>
+      <li>
+        <a href="2026-08-04/">RWE Automation Meets the Protocol Test</a>
+        <small>August 4, 2026 — Daily edition — Latest</small>
+      </li>
+    </ol>
   </main>
 </body>
 </html>

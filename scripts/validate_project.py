@@ -128,6 +128,16 @@ def main() -> int:
         for edition_path in editions_root.glob("*/index.html"):
             edition_text = edition_path.read_text(encoding="utf-8")
             no_signal = re.search(r"no new high-signal", edition_text, re.IGNORECASE)
+            if 'data-editorial-scope="ai-rwe"' not in edition_text:
+                errors.append(
+                    f"{edition_path.relative_to(ROOT)}: missing AI-RWE editorial scope marker"
+                )
+            section_tags = re.findall(r"<section\b[^>]*>", edition_text, re.IGNORECASE)
+            for section_number, section_tag in enumerate(section_tags, 1):
+                if 'data-scope="ai-rwe"' not in section_tag:
+                    errors.append(
+                        f"{edition_path.relative_to(ROOT)}: section {section_number} lacks AI-RWE scope marker"
+                    )
             figure_count = len(re.findall(r"<figure\b", edition_text, re.IGNORECASE))
             caption_count = len(re.findall(r"<figcaption\b", edition_text, re.IGNORECASE))
             if not no_signal and not 2 <= figure_count <= 3:

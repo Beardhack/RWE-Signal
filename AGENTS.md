@@ -4,17 +4,22 @@ These instructions apply to the entire repository.
 
 ## Mission
 
-Publish a concise, evidence-led daily briefing on public material about:
+Publish a concise, evidence-led daily briefing about the intersection of frontier AI and real-world data or real-world evidence. The core beat is agents, LLMs, and foundation-model workflows used to produce, evaluate, govern, or critique RWD/RWE.
 
-1. frontier and agentic AI applied to real-world data and real-world evidence;
-2. causal inference, target-trial emulation, phenotyping, and trial design;
-3. HIPAA Expert Determination and statistical de-identification;
-4. re-identification risk, quasi-identifiers, and privacy-enhancing methods;
-5. healthcare tokenization, privacy-preserving linkage, patient matching, and identity resolution;
-6. regulatory use of RWD and RWE; and
-7. scientific evaluation, provenance, reproducibility, validation, and governance.
+Track causal inference, target-trial emulation, phenotyping, trial design, regulation, privacy, de-identification, tokenization, linkage, provenance, reproducibility, validation, and governance only when the reported development materially involves AI and materially involves RWD/RWE.
 
 This is public-web research only. Never use, request, infer, summarize, or publish confidential Datavant information.
+
+## Hard editorial intersection gate
+
+Every candidate must pass both sides of this gate before it can be scored:
+
+1. **AI side:** the primary source materially concerns an AI agent, multi-agent system, LLM, foundation model, generative-AI workflow, or the task-specific evaluation or governance of such a system.
+2. **RWE side:** the primary source materially concerns RWD/RWE or a named part of the evidence lifecycle, such as cohort construction, phenotyping, target-trial specification, causal analysis, evidence synthesis, or regulatory evidence generation using real-world health data.
+
+The source itself must establish the intersection. Do not manufacture it through editorial inference. Conventional predictive models, generic healthcare AI, generic causal inference, general RWE policy, ordinary RWD studies, standalone FDA submission counts, linkage, tokenization, Expert Determination, anonymisation, and de-identification do not qualify unless an agent, LLM, or foundation-model workflow is a material part of the same development.
+
+RWE-only material may appear briefly as clearly dated supporting context inside a qualifying AI-plus-RWE story. It may not lead an edition, receive its own reported section, or count toward the item total. AI-only material outside the RWD/RWE lifecycle is likewise context-only. If no new source passes both sides, publish the no-new-signal edition.
 
 ## Hard exclusions
 
@@ -34,11 +39,15 @@ Includes agentic or multi-agent systems, LLMs and foundation models used for sci
 
 Means HIPAA 45 CFR 164.514(b)(1), statistical re-identification risk, quasi-identifiers, recipient and release-environment considerations, motivated-intruder analysis, k-anonymity and related methods, structured and unstructured health-data de-identification, composition risk, continuously refreshed data, and relevant synthetic-data privacy and utility.
 
+This lane is publishable only when the same source materially connects those questions to agents, LLMs, foundation models, or AI-enabled RWE workflows.
+
 ### Tokenization
 
 Means privacy-preserving patient matching and record linkage—not cryptocurrency and not LLM text tokens. Track match quality, false and missed matches, split or broken identities, source coverage, durability, endpoint capture, longitudinal observability, enrichment, and fitness for a stated research question.
 
 Tokenization is not, by itself, a HIPAA de-identification method. Linkage quality and evidence fitness are separate questions.
+
+This lane is publishable only when the same source materially connects tokenization or linkage to an AI-enabled RWD/RWE workflow.
 
 ## Start every daily run here
 
@@ -65,6 +74,7 @@ Do not present a snippet as verified evidence. If a primary source is inaccessib
 - Search exact names in quotes with the topic terms and date window.
 - Use the source's electronic publication or substantive update date, not a nominal journal issue month, when deciding whether it falls inside the discovery window.
 - Confirm the author, publication date, direct URL, and relevance before scoring.
+- Record a one-sentence `ai_rwe_intersection` test in the research notes for every scored candidate. Reject the candidate before scoring if either side is missing.
 - Separate what the source establishes from your inference.
 - Do not overstate early results, preprints, abstracts, posters, vendor claims, or social posts.
 - Treat commercial perspective as useful but disclose the commercial context.
@@ -90,9 +100,9 @@ The 30-day window is for discovery, not republication. Every public section must
 
 ## Signal score
 
-Score each candidate out of 10:
+Only candidates that pass the hard intersection gate may be scored. Score each qualifying candidate out of 10:
 
-- relevance to the watch topics: 0–3;
+- strength and specificity of the AI-plus-RWE intersection: 0–3;
 - evidence quality and primary-source support: 0–3;
 - novelty or decision value: 0–2;
 - practical decision value for an RWE reader: 0–1;
@@ -110,6 +120,8 @@ Include items scoring 6 or higher. Lead items should normally score 8 or higher.
 ## Daily edition format
 
 The public edition is a newspaper-style analysis, not a research log, scorecard, watchlist update, or explanation of the automation. Keep scoring, exclusions, search process, and source-management logic backstage in `sources/`, state, and configuration files.
+
+Every substantive public section must be anchored to a qualifying AI-plus-RWE source and use `data-scope="ai-rwe"` on its `<section>` element. Mark the article `data-editorial-scope="ai-rwe"`. RWE-only background belongs inside the qualifying section that it helps explain, never in a standalone section.
 
 Match the visual and editorial language of AI Daily Ledger: one large uppercase headline, a precise deck, a short dateline, an executive opening, and continuous reported prose divided by strong section headlines. Use the restrained beige-paper layout and inline CSS established by the reference ledger. Do not use cards, score badges, topic tags, ranked-item labels, or public methodology copy.
 

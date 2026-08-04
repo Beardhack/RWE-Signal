@@ -1,15 +1,15 @@
 # RWE-Signal
 
-A daily, source-linked newspaper on real-world evidence: the methods, regulation, data quality, privacy, linkage, and AI systems changing how evidence is produced and judged.
+A daily, source-linked newspaper about the intersection of frontier AI and real-world evidence: agents, LLMs, and foundation-model workflows changing how evidence is produced and judged.
 
 The publication follows the editorial and visual pattern of AI Daily Ledger: a reported lead, evidence-led analysis, restrained newspaper typography, two or three sourced editorial visuals per substantive edition, permanent editions, and automatic deployment through GitHub Pages.
 
 ## What it tracks
 
-- Agentic AI for evidence generation, causal inference, and target-trial emulation
-- RWD/RWE regulatory policy and scientific evaluation
-- Expert Determination, de-identification, and re-identification risk
-- Privacy-preserving patient matching, tokenization, and data-linkage quality
+- Agents and LLMs for evidence generation, causal inference, and target-trial emulation
+- Foundation-model workflows for cohort construction, phenotyping, protocol work, and evidence synthesis
+- Evaluation, provenance, reproducibility, human oversight, and governance of AI-enabled RWE
+- Privacy, de-identification, tokenization, linkage, and regulation only when they materially intersect with an AI-enabled RWD/RWE workflow
 
 Research is public-web and read-only; it never follows, connects, reacts, comments, or messages on the user's behalf.
 

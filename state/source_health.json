@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "sources": {
     "Nature Communications": {
       "status": "partial",
@@ -16,9 +16,26 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "note": "Public indexing is incomplete."
+    },
+    "arXiv": {
+      "status": "ok",
+      "last_checked": "2026-08-05"
+    },
+    "medRxiv": {
+      "status": "partial",
+      "last_checked": "2026-08-05",
+      "note": "The direct full-text route intermittently returned an access error; primary indexed full text remained available."
+    },
+    "FDA": {
+      "status": "ok",
+      "last_checked": "2026-08-05"
+    },
+    "ISPOR": {
+      "status": "ok",
+      "last_checked": "2026-08-05"
     }
   },
-  "note": "Clean state for the first 30-day edition. Source limitations do not imply that an inaccessible social account had no new posts."
+  "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."
 }

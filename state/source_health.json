@@ -1,45 +1,57 @@
 {
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "sources": {
-    "Nature Communications": {
+    "Europe PMC": {
+      "status": "ok",
+      "last_checked": "2026-08-07",
+      "note": "Systematic date-bounded metadata, abstracts, and open full text were available."
+    },
+    "Nature / Communications Medicine": {
+      "status": "ok",
+      "last_checked": "2026-08-07",
+      "note": "The cancer extraction article was accessible and cross-checked against Europe PMC full text."
+    },
+    "Oxford Academic / JAMIA Open": {
       "status": "partial",
-      "last_checked": "2026-08-04",
-      "note": "The canonical page intermittently redirected to sign-in; complete peer-reviewed text was verified through PubMed Central."
+      "last_checked": "2026-08-07",
+      "note": "Metadata and the abstract were available; full text required subscription access."
     },
-    "PubMed Central": {
-      "status": "ok",
-      "last_checked": "2026-08-04"
+    "PubMed": {
+      "status": "partial",
+      "last_checked": "2026-08-07",
+      "note": "Metadata was available, while some web routes presented a reCAPTCHA interstitial."
     },
-    "Oxford Academic": {
-      "status": "ok",
-      "last_checked": "2026-08-04"
+    "Wiley DOI": {
+      "status": "partial",
+      "last_checked": "2026-08-07",
+      "note": "The anti-amyloid pharmacovigilance DOI was inconsistently indexed in search; PubMed supplied the stable record and abstract."
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-06",
-      "note": "Public indexing is incomplete, and indexed views sometimes expose inconsistent relative timestamps."
+      "last_checked": "2026-08-07",
+      "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-05"
+      "last_checked": "2026-08-07"
     },
     "medRxiv": {
       "status": "partial",
-      "last_checked": "2026-08-06",
-      "note": "Direct full-text routes intermittently returned HTTP 403; primary indexed full text remained available."
+      "last_checked": "2026-08-07",
+      "note": "Discovery metadata remained available; direct full-text routes have intermittently returned HTTP 403."
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-06"
+      "last_checked": "2026-08-07"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-06"
+      "last_checked": "2026-08-07"
     },
     "Black Swan Causal Labs": {
-      "status": "partial",
-      "last_checked": "2026-08-06",
-      "note": "The DIA 2026 supplemental site was unavailable; the associated item was outside the discovery window."
+      "status": "ok",
+      "last_checked": "2026-08-07",
+      "note": "The public homepage was accessible; no clearly dated in-window item cleared the inclusion gate."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

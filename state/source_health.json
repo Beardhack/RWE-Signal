@@ -1,10 +1,15 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "sources": {
     "Europe PMC": {
       "status": "ok",
-      "last_checked": "2026-08-07",
-      "note": "Systematic date-bounded metadata, abstracts, and open full text were available."
+      "last_checked": "2026-08-08",
+      "note": "Systematic date-bounded metadata and complete primary abstracts were available."
+    },
+    "Nature / Scientific Reports": {
+      "status": "partial",
+      "last_checked": "2026-08-08",
+      "note": "The sleep-report article page, DOI, date, authors, and abstract were accessible; the current early unedited page did not expose detailed result tables."
     },
     "Nature / Communications Medicine": {
       "status": "ok",
@@ -17,9 +22,9 @@
       "note": "Metadata and the abstract were available; full text required subscription access."
     },
     "PubMed": {
-      "status": "partial",
-      "last_checked": "2026-08-07",
-      "note": "Metadata was available, while some web routes presented a reCAPTCHA interstitial."
+      "status": "ok",
+      "last_checked": "2026-08-08",
+      "note": "The Scientific Reports record and abstract were accessible."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -28,30 +33,46 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-07",
+      "last_checked": "2026-08-08",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-07"
+      "last_checked": "2026-08-08"
     },
     "medRxiv": {
       "status": "partial",
-      "last_checked": "2026-08-07",
-      "note": "Discovery metadata remained available; direct full-text routes have intermittently returned HTTP 403."
+      "last_checked": "2026-08-08",
+      "note": "Direct article routes returned HTTP 403 through the research browser; Europe PMC primary records and indexed medRxiv text remained available."
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-07"
+      "last_checked": "2026-08-08"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-07"
+      "last_checked": "2026-08-08"
     },
     "Black Swan Causal Labs": {
       "status": "ok",
-      "last_checked": "2026-08-07",
-      "note": "The public homepage was accessible; no clearly dated in-window item cleared the inclusion gate."
+      "last_checked": "2026-08-08",
+      "note": "The public reading page was accessible; no clearly dated in-window item cleared the inclusion gate."
+    },
+    "Duke-Margolis": {
+      "status": "ok",
+      "last_checked": "2026-08-08"
+    },
+    "Integral": {
+      "status": "ok",
+      "last_checked": "2026-08-08"
+    },
+    "Privacy Analytics": {
+      "status": "ok",
+      "last_checked": "2026-08-08"
+    },
+    "John Snow Labs": {
+      "status": "ok",
+      "last_checked": "2026-08-08"
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

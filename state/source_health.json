@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -17,14 +17,14 @@
       "note": "The cancer extraction article was accessible and cross-checked against Europe PMC full text."
     },
     "Oxford Academic / JAMIA Open": {
-      "status": "partial",
-      "last_checked": "2026-08-07",
-      "note": "Metadata and the abstract were available; full text required subscription access."
+      "status": "ok",
+      "last_checked": "2026-08-09",
+      "note": "Full text and tables for the sequential multi-site fine-tuning study were accessible."
     },
     "PubMed": {
-      "status": "ok",
-      "last_checked": "2026-08-08",
-      "note": "The Scientific Reports record and abstract were accessible."
+      "status": "partial",
+      "last_checked": "2026-08-09",
+      "note": "Some web routes presented a reCAPTCHA interstitial; Europe PMC and DOI records supplied stable verification."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,12 +33,13 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-08",
+      "last_checked": "2026-08-09",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09",
+      "note": "Abstract records and full HTML for both included preprints were accessible."
     },
     "medRxiv": {
       "status": "partial",
@@ -47,32 +48,32 @@
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     },
     "Black Swan Causal Labs": {
       "status": "ok",
-      "last_checked": "2026-08-08",
+      "last_checked": "2026-08-09",
       "note": "The public reading page was accessible; no clearly dated in-window item cleared the inclusion gate."
     },
     "Duke-Margolis": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     },
     "Integral": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     },
     "Privacy Analytics": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     },
     "John Snow Labs": {
       "status": "ok",
-      "last_checked": "2026-08-08"
+      "last_checked": "2026-08-09"
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

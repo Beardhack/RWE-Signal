@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "sources": {
     "Europe PMC": {
       "status": "ok",
-      "last_checked": "2026-08-08",
-      "note": "Systematic date-bounded metadata and complete primary abstracts were available."
+      "last_checked": "2026-08-10",
+      "note": "The public API supplied systematic date-bounded discovery and stable metadata."
     },
     "Nature / Scientific Reports": {
       "status": "partial",
@@ -22,9 +22,9 @@
       "note": "Full text and tables for the sequential multi-site fine-tuning study were accessible."
     },
     "PubMed": {
-      "status": "partial",
-      "last_checked": "2026-08-09",
-      "note": "Some web routes presented a reCAPTCHA interstitial; Europe PMC and DOI records supplied stable verification."
+      "status": "ok",
+      "last_checked": "2026-08-10",
+      "note": "Candidate records and abstracts were accessible."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,47 +33,52 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-09",
+      "last_checked": "2026-08-10",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-09",
-      "note": "Abstract records and full HTML for both included preprints were accessible."
+      "last_checked": "2026-08-10",
+      "note": "The abstract record and full HTML for the included EHR-inconsistency preprint were accessible."
     },
     "medRxiv": {
       "status": "partial",
-      "last_checked": "2026-08-08",
-      "note": "Direct article routes returned HTTP 403 through the research browser; Europe PMC primary records and indexed medRxiv text remained available."
+      "last_checked": "2026-08-10",
+      "note": "Search-indexed primary text was available, but one direct full-text open was inconsistent during review of an excluded candidate."
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
     },
     "Black Swan Causal Labs": {
       "status": "ok",
-      "last_checked": "2026-08-09",
+      "last_checked": "2026-08-10",
       "note": "The public reading page was accessible; no clearly dated in-window item cleared the inclusion gate."
     },
     "Duke-Margolis": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
     },
     "Integral": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
     },
     "Privacy Analytics": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
     },
     "John Snow Labs": {
       "status": "ok",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-10"
+    },
+    "Oxford Academic / Open Forum Infectious Diseases": {
+      "status": "ok",
+      "last_checked": "2026-08-10",
+      "note": "Complete article text, methods, results, limitations, DOI, and publication date were accessible."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

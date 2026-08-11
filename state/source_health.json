@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "sources": {
     "Europe PMC": {
       "status": "ok",
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-11",
       "note": "The public API supplied systematic date-bounded discovery and stable metadata."
     },
     "Nature / Scientific Reports": {
@@ -23,7 +23,7 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-11",
       "note": "Candidate records and abstracts were accessible."
     },
     "Wiley DOI": {
@@ -33,47 +33,47 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-11",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-10",
-      "note": "The abstract record and full HTML for the included EHR-inconsistency preprint were accessible."
+      "last_checked": "2026-08-11",
+      "note": "The open manuscript supporting the peer-reviewed CTPA abstraction evaluation was accessible."
     },
     "medRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-10",
-      "note": "Search-indexed primary text was available, but one direct full-text open was inconsistent during review of an excluded candidate."
+      "status": "ok",
+      "last_checked": "2026-08-11",
+      "note": "Both included preprint PDFs, abstracts, dates, versions, and DOI metadata were accessible."
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "Black Swan Causal Labs": {
       "status": "ok",
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-11",
       "note": "The public reading page was accessible; no clearly dated in-window item cleared the inclusion gate."
     },
     "Duke-Margolis": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "Integral": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "Privacy Analytics": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "John Snow Labs": {
       "status": "ok",
-      "last_checked": "2026-08-10"
+      "last_checked": "2026-08-11"
     },
     "Oxford Academic / Open Forum Infectious Diseases": {
       "status": "ok",

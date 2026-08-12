@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "sources": {
     "Europe PMC": {
       "status": "ok",
-      "last_checked": "2026-08-11",
-      "note": "The public API supplied systematic date-bounded discovery and stable metadata."
+      "last_checked": "2026-08-12",
+      "note": "The public API supplied systematic date-bounded discovery, abstracts, publication dates, affiliations, and stable metadata."
     },
     "Nature / Scientific Reports": {
       "status": "partial",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-11",
-      "note": "Candidate records and abstracts were accessible."
+      "last_checked": "2026-08-12",
+      "note": "Candidate records and primary abstracts were accessible for all included articles."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,7 +33,7 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-11",
+      "last_checked": "2026-08-12",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
@@ -48,37 +48,52 @@
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "ISPOR": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "Black Swan Causal Labs": {
       "status": "ok",
-      "last_checked": "2026-08-11",
+      "last_checked": "2026-08-12",
       "note": "The public reading page was accessible; no clearly dated in-window item cleared the inclusion gate."
     },
     "Duke-Margolis": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "Integral": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "Privacy Analytics": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "John Snow Labs": {
       "status": "ok",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-12"
     },
     "Oxford Academic / Open Forum Infectious Diseases": {
       "status": "ok",
       "last_checked": "2026-08-10",
       "note": "Complete article text, methods, results, limitations, DOI, and publication date were accessible."
+    },
+    "Springer / PharmacoEconomics": {
+      "status": "partial",
+      "last_checked": "2026-08-12",
+      "note": "The official DOI, primary abstract, PMID, publication date, affiliations, methods summary, and results were accessible; publisher full text required a subscription."
+    },
+    "Wiley / Clinical Pharmacology & Therapeutics": {
+      "status": "partial",
+      "last_checked": "2026-08-12",
+      "note": "The official DOI, primary abstract, PMID, publication date, affiliations, methods summary, and results were accessible; publisher full text required a subscription."
+    },
+    "ASCO / JCO Clinical Cancer Informatics": {
+      "status": "partial",
+      "last_checked": "2026-08-12",
+      "note": "The official journal abstract, DOI, PMID, authors, publication date, methods summary, and results were accessible; publisher full text required a subscription."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

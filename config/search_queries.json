@@ -1,11 +1,16 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-12",
   "post_window_hours": 48,
   "publication_window_days": 30,
   "queries": [
     {"lane": "agentic-rwe", "query": "(agentic OR multi-agent OR LLM) (real-world evidence OR real-world data OR RWE)"},
     {"lane": "causal", "query": "(agentic OR LLM OR AI) (target trial emulation OR causal inference OR estimand) healthcare"},
     {"lane": "clinical-research", "query": "(AI agent OR multi-agent) (cohort construction OR phenotyping OR eligibility criteria) clinical research"},
+    {"lane": "executable-evidence", "query": "(Paper2Agent OR paper-to-agent OR paper agent OR executable paper OR agentified paper) (biomedical OR clinical OR health OR evidence)"},
+    {"lane": "ai-scientists", "query": "(AI scientist OR scientific agent OR research agent OR virtual lab OR virtual biotech OR autonomous research organization) (clinical trial OR registry OR health data OR biomedicine OR therapeutic development)"},
+    {"lane": "trial-evidence-mining", "query": "(LLM OR agentic OR multi-agent) (clinical trial outcomes OR ClinicalTrials.gov OR trial registry OR safety reports) (curation OR synthesis OR evidence)"},
+    {"lane": "synthetic-evidence", "query": "(digital twin OR synthetic cohort OR synthetic control arm) (LLM OR agentic OR foundation model) (RWD OR real-world data OR clinical trial)"},
+    {"lane": "scientific-agent-repositories", "query": "site:github.com (AI agent OR multi-agent) (biomedical OR clinical OR health data) (trial OR evidence OR cohort OR registry)"},
     {"lane": "evaluation", "query": "(ELEVATE-GenAI OR generative AI) (HEOR OR RWE) evaluation validation reproducibility"},
     {"lane": "expert-determination", "query": "(LLM OR agentic OR foundation model) \"Expert Determination\" (RWE OR real-world data OR clinical research)"},
     {"lane": "reidentification", "query": "(LLM OR generative AI OR AI agent) (re-identification risk OR quasi-identifier) (RWE OR real-world health data)"},

@@ -1,6 +1,6 @@
 {
   "name": "RWE-Signal",
-  "updated": "2026-08-04",
+  "updated": "2026-08-12",
   "policy": {
     "public_web_only": true,
     "exclude_current_datavant_employees": true,
@@ -97,6 +97,20 @@
         {"label": "LinkedIn", "url": "https://www.linkedin.com/in/fei-wang-50682425"},
         {"label": "Wang Lab", "url": "https://wcm-wanglab.github.io/"},
         {"label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=FjCbjDYAAAAJ"}
+      ]
+    },
+    {
+      "name": "James Zou",
+      "priority": 1,
+      "follow_manually": true,
+      "lane": "Agentic scientific evidence infrastructure",
+      "topics": ["Paper2Agent", "Virtual Biotech", "AI scientists", "clinical-trial evidence mining"],
+      "sources": [
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/james-zou-2123a4133"},
+        {"label": "Stanford AI for Science Lab", "url": "https://www.james-zou.com/"},
+        {"label": "Stanford profile", "url": "https://profiles.stanford.edu/james-zou"},
+        {"label": "Paper2Agent", "url": "https://github.com/jmiao24/Paper2Agent"},
+        {"label": "Virtual Biotech", "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1"}
       ]
     },
     {

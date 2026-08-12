@@ -15,7 +15,7 @@ This is public-web research only. Never use, request, infer, summarize, or publi
 Every candidate must pass both sides of this gate before it can be scored:
 
 1. **AI side:** the primary source materially concerns an AI agent, multi-agent system, LLM, foundation model, generative-AI workflow, or the task-specific evaluation or governance of such a system.
-2. **RWE side:** the primary source materially concerns RWD/RWE or a named part of the evidence lifecycle, such as cohort construction, phenotyping, target-trial specification, causal analysis, evidence synthesis, or regulatory evidence generation using real-world health data.
+2. **RWE side:** the primary source materially concerns RWD/RWE or a named part of the evidence lifecycle, such as cohort construction, phenotyping, target-trial specification, causal analysis, evidence synthesis, or regulatory evidence generation using real-world health data. Clinical-trial registries and outcome records, EHRs, claims, observational patient data, postmarket safety reports, and clinicogenomic datasets count when the AI system uses them to generate, structure, test, or synthesize evidence.
 
 The source itself must establish the intersection. Do not manufacture it through editorial inference. Conventional predictive models, generic healthcare AI, generic causal inference, general RWE policy, ordinary RWD studies, standalone FDA submission counts, linkage, tokenization, Expert Determination, anonymisation, and de-identification do not qualify unless an agent, LLM, or foundation-model workflow is a material part of the same development.
 
@@ -34,6 +34,18 @@ RWE-only material may appear briefly as clearly dated supporting context inside 
 ### Frontier AI for RWE
 
 Includes agentic or multi-agent systems, LLMs and foundation models used for scientific work, MCP servers and skills in evidence workflows, cohort construction, phenotyping, protocol work, target-trial emulation, causal inference, statistical-analysis generation or review, data-quality assessment, evidence synthesis, provenance, reproducibility, evaluation, error detection, and human oversight.
+
+### Agentic scientific evidence infrastructure
+
+Treat major projects such as paper-to-agent systems, executable research papers, AI scientists, virtual labs, virtual biotechs, autonomous research organizations, scientific-agent swarms, and agent-enabled digital twins as a permanent frontier-discovery lane.
+
+Classify them by what they do:
+
+- **Executable evidence:** turns a paper, method, codebase, or dataset into an agent that can reproduce analyses or apply the method to new health data.
+- **Evidence intelligence:** uses agents to curate or synthesize clinical trials, registries, literature, safety reports, observational records, or multimodal patient evidence.
+- **In-silico evidence generation:** uses agent teams, digital twins, synthetic cohorts, or synthetic control arms to inform trial or therapeutic decisions.
+
+These labels are discovery routes, not automatic publication passes. A general paper agent or AI scientist is AI-only until a source shows a material health-evidence application. A system qualifies when it performs a concrete evidence-lifecycle task on relevant health data, even if its authors call the work biomedical discovery or clinical development rather than RWE. State whether the artifact is peer reviewed, a preprint, a repository, a demonstration, or an institutional announcement, and report the validation and human-oversight limits.
 
 ### Expert Determination
 
@@ -55,8 +67,9 @@ This lane is publishable only when the same source materially connects tokenizat
 2. Read `state/seen_items.jsonl`, `state/run_log.jsonl`, `state/source_health.json`, and `state/watchlist_candidates.json`.
 3. Determine the local date in `America/New_York`.
 4. Use a 30-day discovery window for all source types. For posts and fast-moving news, prioritize the most recent 48 hours first, then search the remainder of the month for missed high-signal work.
-5. Search the named people first, then institutional feeds, then the thematic queries.
-6. Verify every included item at the most primary accessible source.
+5. Search the named people first, then the frontier institutional radar and its conferences or project launches, then the remaining institutional feeds and thematic queries.
+6. Treat an institutional story as a discovery lead: trace named systems and claims to the paper, preprint, repository, dataset, proceedings, talk, or direct author post whenever one exists.
+7. Verify every included item at the most primary accessible source.
 
 ## Source hierarchy
 
@@ -68,6 +81,8 @@ Prefer, in order:
 4. search snippets and aggregators only for discovery.
 
 Do not present a snippet as verified evidence. If a primary source is inaccessible, either use a credible accessible source and label the limitation, or omit the item. LinkedIn coverage will be incomplete; triangulate with author pages, publications, conference programs, and institutional posts.
+
+An official university or conference announcement may anchor a story when it is the first public record of a material launch, demonstration, or result and no more primary artifact is yet public. Say that plainly and do not imply peer review. When an announcement summarizes an existing paper or project, cluster them as one story and anchor to the underlying artifact.
 
 ## Search and verification rules
 

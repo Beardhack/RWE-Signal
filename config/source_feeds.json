@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-12",
   "feeds": [
     {"name": "FDA Real-World Evidence", "type": "regulator", "priority": 1, "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence"},
     {"name": "FDA CDER RWE submissions", "type": "regulator", "priority": 1, "url": "https://www.fda.gov/science-research/real-world-evidence/real-world-evidence-submissions-center-drug-evaluation-and-research"},
@@ -11,6 +11,14 @@
     {"name": "JBI agentic RWE special issue", "type": "journal", "priority": 1, "url": "https://www.sciencedirect.com/special-issue/334546/agentic-ai-for-real-world-evidence-life-cycle-support-scaling-trustworthy-evaluation-of-treatment-safety-and-effectiveness"},
     {"name": "Value in Health", "type": "journal", "priority": 1, "url": "https://www.valueinhealthjournal.com/"},
     {"name": "PubMed", "type": "literature index", "priority": 1, "url": "https://pubmed.ncbi.nlm.nih.gov/"},
+    {"name": "bioRxiv", "type": "preprint index", "priority": 1, "url": "https://www.biorxiv.org/"},
+    {"name": "arXiv quantitative biology", "type": "preprint index", "priority": 1, "url": "https://arxiv.org/list/q-bio/recent"},
+    {"name": "Stanford Medicine artificial intelligence news", "type": "frontier institutional radar", "priority": 1, "url": "https://med.stanford.edu/news/topics/artificial-intelligence.html"},
+    {"name": "Stanford RAISE Health", "type": "frontier institutional radar", "priority": 1, "url": "https://med.stanford.edu/raisehealth"},
+    {"name": "Stanford AIMI", "type": "frontier institutional radar", "priority": 1, "url": "https://aimi.stanford.edu/"},
+    {"name": "MIT Jameel Clinic", "type": "frontier institutional radar", "priority": 2, "url": "https://jclinic.mit.edu/"},
+    {"name": "Harvard Medical School DBMI news", "type": "frontier institutional radar", "priority": 2, "url": "https://dbmi.hms.harvard.edu/news"},
+    {"name": "Columbia DBMI news and updates", "type": "frontier institutional radar", "priority": 2, "url": "https://www.dbmi.columbia.edu/"},
     {"name": "Black Swan RWE and causal inference digest", "type": "expert digest", "priority": 1, "url": "https://blackswancausallabs.com/reading-list.html"},
     {"name": "Integral blog", "type": "company research blog", "priority": 2, "url": "https://www.useintegral.com/blog"},
     {"name": "Privacy Analytics resources", "type": "company research library", "priority": 2, "url": "https://privacy-analytics.com/resources/"},

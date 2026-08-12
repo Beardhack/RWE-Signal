@@ -8,6 +8,7 @@ The publication follows the editorial and visual pattern of AI Daily Ledger: a r
 
 - Agents and LLMs for evidence generation, causal inference, and target-trial emulation
 - Foundation-model workflows for cohort construction, phenotyping, protocol work, and evidence synthesis
+- Paper-to-agent systems, AI scientists, virtual labs, virtual biotechs, and digital twins when they materially use clinical or real-world evidence
 - Evaluation, provenance, reproducibility, human oversight, and governance of AI-enabled RWE
 - Privacy, de-identification, tokenization, linkage, and regulation only when they materially intersect with an AI-enabled RWD/RWE workflow
 

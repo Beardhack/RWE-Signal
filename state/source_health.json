@@ -94,6 +94,28 @@
       "status": "partial",
       "last_checked": "2026-08-12",
       "note": "The official journal abstract, DOI, PMID, authors, publication date, methods summary, and results were accessible; publisher full text required a subscription."
+    },
+    "Stanford frontier health AI": {
+      "status": "ok",
+      "last_checked": "2026-08-12",
+      "note": "Stanford Medicine AI News, RAISE Health, Stanford AIMI, Stanford HAI, the James Zou lab page, Paper2Agent repository, and linked primary artifacts were accessible."
+    },
+    "MIT Jameel Clinic": {
+      "status": "ok",
+      "last_checked": "2026-08-12"
+    },
+    "Harvard Medical School DBMI": {
+      "status": "ok",
+      "last_checked": "2026-08-12"
+    },
+    "Columbia DBMI": {
+      "status": "ok",
+      "last_checked": "2026-08-12"
+    },
+    "bioRxiv": {
+      "status": "ok",
+      "last_checked": "2026-08-12",
+      "note": "The Virtual Biotech primary preprint and current biomedical agent searches were accessible."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

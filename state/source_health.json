@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12",
+  "updated": "2026-08-14",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-13",
-      "note": "Candidate records and primary abstracts were accessible for all included articles."
+      "last_checked": "2026-08-14",
+      "note": "Direct NCBI E-Utilities supplied the date-bounded candidate set, stable metadata, and primary abstracts."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-13",
+      "last_checked": "2026-08-14",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-13",
+      "last_checked": "2026-08-14",
       "note": "Current health-agent and evidence-workflow searches were accessible; no additional in-window item cleared the full inclusion gate."
     },
     "medRxiv": {
-      "status": "ok",
-      "last_checked": "2026-08-13",
-      "note": "Current health-agent and evidence-workflow searches were accessible; no additional in-window item cleared the full inclusion gate."
+      "status": "partial",
+      "last_checked": "2026-08-14",
+      "note": "The direct API timed out or returned HTTP 503. Public indexed pages remained available for discovery, so same-day preprint coverage may be incomplete."
     },
     "FDA": {
       "status": "ok",
@@ -124,9 +124,24 @@
       "last_checked": "2026-08-13"
     },
     "bioRxiv": {
+      "status": "partial",
+      "last_checked": "2026-08-14",
+      "note": "The direct API timed out or returned HTTP 503. Public indexed pages remained available for discovery, so same-day preprint coverage may be incomplete."
+    },
+    "NCBI PMC": {
       "status": "ok",
-      "last_checked": "2026-08-13",
-      "note": "Current biomedical-agent searches were accessible; no additional in-window item cleared the full inclusion gate."
+      "last_checked": "2026-08-14",
+      "note": "The complete peer-reviewed MacAma article, methods, tables, limitations, DOI, PMID, and PMCID were accessible."
+    },
+    "GitHub / MacAma": {
+      "status": "ok",
+      "last_checked": "2026-08-14",
+      "note": "The public repository exposed the workflow, code structure, case-study resources, benchmark materials, execution requirements, and MIT license."
+    },
+    "Smart Medicine / Wiley": {
+      "status": "ok",
+      "last_checked": "2026-08-14",
+      "note": "The DOI and bibliographic record were verified; the complete open article was available through PMC."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

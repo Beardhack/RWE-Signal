@@ -136,6 +136,17 @@ Include items scoring 6 or higher. Lead items should normally score 8 or higher.
 
 The public edition is a newspaper-style analysis, not a research log, scorecard, watchlist update, or explanation of the automation. Keep scoring, exclusions, search process, and source-management logic backstage in `sources/`, state, and configuration files.
 
+### Editorial posture: constructive and tech-positive
+
+The default public posture is optimistic, curious, and capability-led. Lead with what the technology now makes possible, what materially improved, and why the development advances AI-enabled evidence work.
+
+- Write descriptive, capability-first headlines. Prefer the new system, result, deployment, or scientific advance as the subject.
+- Do not default to the repeated contrast formula “the AI did X, but missed/failed/could not do Y.” Avoid gotcha framing, failure-first headlines, and headlines that turn one limitation into the identity of the story.
+- Report material limitations, uncertainty, and validation needs accurately in the body. Frame them as the conditions for responsible scale, the next engineering or evidence frontier, or the boundary of the demonstrated result—not as an automatic rebuttal to the advance.
+- Give concrete progress at least as much narrative weight as caveats. When a source publishes code, benchmarks, audit trails, human checkpoints, or reproducibility materials, treat that transparency as a positive technical contribution.
+- Tech-positive does not mean promotional. Do not suppress contradictory evidence, soften a genuine safety event, or present a vendor claim as an independent result. A material failure may lead when the failure itself is the verified news.
+- End with the opportunity, next unlock, or practical path forward whenever the evidence supports one.
+
 Every substantive public section must be anchored to a qualifying AI-plus-RWE source and use `data-scope="ai-rwe"` on its `<section>` element. Mark the article `data-editorial-scope="ai-rwe"`. RWE-only background belongs inside the qualifying section that it helps explain, never in a standalone section.
 
 Match the visual and editorial language of AI Daily Ledger: one large uppercase headline, a precise deck, a short dateline, an executive opening, and continuous reported prose divided by strong section headlines. Use the restrained beige-paper layout and inline CSS established by the reference ledger. Do not use cards, score badges, topic tags, ranked-item labels, or public methodology copy.

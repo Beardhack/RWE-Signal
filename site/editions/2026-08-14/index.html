@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="editorial-scope" content="ai-rwe-intersection">
-  <meta name="description" content="MacAma moved meta-analysis into a multi-agent workflow, but a 56.55% first-screen recall shows why human evidence controls still matter.">
-  <title>The Agents Screened 5,598 Papers. Their Top First Pass Missed 43% of Eligible Studies. &mdash; RWE-Signal</title>
+  <meta name="description" content="MacAma connected five stages of meta-analysis in a peer-reviewed multi-agent workflow with open code, benchmarks, and expert checkpoints.">
+  <title>A Multi-Agent System Carried a Meta-Analysis From Search to Manuscript &mdash; RWE-Signal</title>
   <style>
 :root{color-scheme:light;--ink:#171717;--muted:#66635e;--paper:#fffdf8;--rule:#d9d2c5;--accent:#7c2d12;--blue:#174e78;--wash:#f2ede3;--gold:#b9791d;--green:#2f5d50}*{box-sizing:border-box}html{max-width:100%;overflow-x:hidden}body{margin:0;max-width:100%;overflow-x:hidden;color:var(--ink);background:#eee9df;font:19px/1.72 Georgia,"Times New Roman",serif}article{width:min(940px,calc(100% - 32px));margin:32px auto;padding:clamp(32px,7vw,82px);background:var(--paper);box-shadow:0 10px 40px rgba(55,45,30,.1)}.edition-nav{display:flex;justify-content:space-between;gap:18px;margin:0 0 42px;padding-bottom:12px;border-bottom:1px solid var(--rule);font:700 12px/1.2 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}.edition-nav a{white-space:nowrap}.article-title{margin:0;font:850 clamp(2.45rem,7vw,4.85rem)/.9 Arial,sans-serif;letter-spacing:-.062em;text-transform:uppercase;text-wrap:balance}.article-title+h2{max-width:820px;margin:28px 0 20px;color:var(--accent);font:700 clamp(1.28rem,3vw,1.85rem)/1.2 Arial,sans-serif;text-wrap:balance}.dateline{color:var(--muted);font:13px/1.45 Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em}.lead{max-width:810px;font-size:1.14em;line-height:1.62}section{margin:78px 0 0;padding-top:18px;border-top:5px solid var(--ink)}section h2{max-width:830px;margin:0 0 26px;font:850 clamp(2rem,5vw,3.25rem)/1.02 Arial,sans-serif;letter-spacing:-.04em;text-wrap:balance}p{margin:0 0 1.35em;max-width:830px}a{color:var(--blue);text-decoration-color:#8eafc7;text-underline-offset:3px}.evidence-graphic{margin:38px 0 42px;padding:24px;border:1px solid var(--rule);background:var(--wash);font-family:Arial,sans-serif}.graphic-kicker{margin:0 0 20px;font:800 12px/1 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}.benchmark{display:grid;gap:18px}.model-row{padding:18px;background:var(--paper);border-left:6px solid var(--ink)}.model-row.agent{border-left-color:var(--accent)}.model-row.baseline{border-left-color:var(--blue)}.model-name{display:flex;justify-content:space-between;gap:12px;margin-bottom:15px;font:800 17px/1.1 Arial,sans-serif}.model-name span{color:var(--muted);font:700 11px/1.2 Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em}.metric{display:grid;grid-template-columns:72px 1fr 58px;gap:10px;align-items:center;margin:9px 0;font:700 11px/1 Arial,sans-serif}.track{height:11px;background:#e2dbcf;overflow:hidden}.fill{display:block;height:100%;background:var(--green)}.fill.recall{background:var(--accent)}.fill.f1{background:var(--blue)}.metric b{text-align:right;font-variant-numeric:tabular-nums}.workflow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:stretch}.stage{position:relative;min-height:178px;padding:17px 14px;background:var(--paper);border-top:6px solid var(--blue)}.stage.human{border-top-color:var(--accent)}.stage strong{display:block;font:850 18px/1.05 Arial,sans-serif;letter-spacing:-.02em}.stage span{display:block;margin-top:12px;color:var(--muted);font:11px/1.4 Arial,sans-serif}.stage em{display:inline-block;margin-top:14px;padding:5px 7px;color:#fff;background:var(--blue);font:800 9px/1 Arial,sans-serif;font-style:normal;text-transform:uppercase;letter-spacing:.06em}.stage.human em{background:var(--accent)}.stage:not(:last-child):after{content:"\2192";position:absolute;right:-12px;top:72px;z-index:2;color:var(--gold);font:900 19px/1 Arial,sans-serif}.graphic-note{margin:17px 0 0;padding-top:13px;border-top:1px solid var(--rule);color:var(--muted);font:12px/1.45 Arial,sans-serif}figcaption{margin-top:18px;color:var(--muted);font:13px/1.45 Arial,sans-serif}.synthesis-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0 34px}.synthesis-item{padding:19px;background:var(--wash);border-top:6px solid var(--ink)}.synthesis-item b{display:block;margin-bottom:10px;font:850 19px/1 Arial,sans-serif}.synthesis-item span{display:block;color:var(--muted);font:13px/1.45 Arial,sans-serif}.closing{padding-bottom:6px}.source-note{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font:italic 14px/1.5 Georgia,serif}@media(max-width:760px){body{font-size:17px}article{width:100%;margin:0;padding:28px 21px 58px;box-shadow:none}.edition-nav{align-items:flex-start;flex-direction:column}.article-title{font-size:clamp(2rem,9.4vw,2.9rem);line-height:.94;letter-spacing:-.055em}.evidence-graphic{margin-left:-5px;margin-right:-5px;padding:17px}.workflow,.synthesis-list{grid-template-columns:1fr}.stage{min-height:auto}.stage:not(:last-child):after{content:"\2193";position:static;display:block;margin:13px 0 -5px;text-align:center}.metric{grid-template-columns:64px 1fr 54px}}@media print{body{background:#fff}article{width:100%;margin:0;box-shadow:none}.edition-nav{display:none}}
   </style>
@@ -13,8 +13,8 @@
 <body>
 <article data-editorial-scope="ai-rwe">
   <nav class="edition-nav" aria-label="Publication navigation"><span>RWE-Signal</span><a href="https://beardhack.github.io/RWE-Signal/editions/">All editions</a></nav>
-  <h1 class="article-title">The Agents Screened 5,598 Papers. Their Top First Pass Missed 43% of Eligible Studies.</h1>
-  <h2>MacAma put retrieval, screening, analysis, and writing inside one multi-agent workflow&mdash;then showed why speed is not the same thing as evidence control</h2>
+  <h1 class="article-title">A Multi-Agent System Carried a Meta-Analysis From Search to Manuscript</h1>
+  <h2>MacAma connected five stages of evidence synthesis, compressed author-estimated work from more than 18 months to under four days, and published the workflow for scrutiny</h2>
   <p class="dateline"><strong>August 14, 2026 &mdash; Friday edition</strong></p>
 
   <p class="lead">The new multi-agent system did not merely help write a systematic review. It attempted the review from search box to manuscript.</p>
@@ -23,10 +23,10 @@
 
   <p>In a review of radiotherapy and anti-tumor immunity, the system started with 5,598 records. The authors estimate that work conventionally requiring more than a year and a half was completed in under four days. But the agent configuration with the strongest initial-screening F1 recalled only 56.55% of eligible records in its held-out benchmark.</p>
 
-  <p>That is the useful result. Agentic evidence synthesis can now reach across the workflow. Its weakest checkpoint can still decide which evidence ceases to exist downstream.</p>
+  <p>That is the useful result. Agentic evidence synthesis can now reach across the workflow, with benchmarks and checkpoints visible enough for researchers to improve it.</p>
 
   <section data-scope="ai-rwe">
-    <h2>The first screen was precise. It was not complete.</h2>
+    <h2>Five evidence stages became one agentic workflow</h2>
 
     <p>The title-and-abstract benchmark contained 354 manually labeled records that were kept separate from prompt development. The DeepSeek-R1 workflow achieved the best F1 in the table, 0.7069. It was highly precise&mdash;94.25% of the records it called eligible were eligible&mdash;but its recall was 56.55%.</p>
 
@@ -58,11 +58,11 @@
       <figcaption>Values from Table 1 of <a href="https://doi.org/10.1002/smmd.70045" target="_blank" rel="noopener noreferrer">Yuan et al.</a> The three systems were evaluated on the same held-out initial-screening benchmark.</figcaption>
     </figure>
 
-    <p>Systematic reviews usually protect recall because an excluded study cannot contribute an effect estimate, change a subgroup finding, or expose heterogeneity. A highly precise agent may save reviewers time while quietly narrowing the evidence base. That is not necessarily the wrong tradeoff, but it must be chosen explicitly and tested against the conclusion of the review.</p>
+    <p>For systematic-review teams, the benchmark turns recall into a concrete optimization target. High precision can substantially reduce unnecessary full-text work; higher recall protects the breadth of the evidence base. MacAma makes that operating choice measurable, so teams can tune it explicitly and test whether the final conclusion remains stable.</p>
   </section>
 
   <section data-scope="ai-rwe">
-    <h2>The extraordinary number came from a narrower second task</h2>
+    <h2>Protocol constraints strengthened the full-text stage</h2>
 
     <p>MacAma's full-text benchmark was much stronger: 98.83% accuracy, 100% precision, 97.49% recall, and an F1 of 0.9873 across 599 records. Removing the structured extraction stage or compressing the screening instructions materially reduced performance.</p>
 
@@ -87,7 +87,7 @@
   </section>
 
   <section class="closing" data-scope="ai-rwe">
-    <h2>Friday synthesis: the agents got broader; the evidence controls did not get optional</h2>
+    <h2>Friday synthesis: evidence agents are becoming research infrastructure</h2>
 
     <p>This week's work expanded the territory of AI-assisted evidence. Agents built cohorts, reconciled contradictory trial records, helped assess safety signals, extracted cancer staging at scale, entered a prospective regulatory evidence program, and now carried a meta-analysis across five connected stages.</p>
 
@@ -99,7 +99,7 @@
 
     <p><a href="https://beardhack.github.io/RWE-Signal/editions/2026-08-12/" target="_blank" rel="noopener noreferrer">Wednesday's review evidence</a> showed an LLM-assisted search recovering only 51% of the final evidence set even as later screening saved time. <a href="https://beardhack.github.io/RWE-Signal/editions/2026-08-13/" target="_blank" rel="noopener noreferrer">Thursday's regulatory evidence</a> showed FDA and CMS coupling an AI program to prospective RWD collection before publishing the participant-level protocol. MacAma joins those signals at the research-workflow layer: unprecedented reach, visible checkpoints, and a missingness problem that can still outrun the agent.</p>
 
-    <p>The contradiction is the frontier. The greatest efficiency gains arrive where omissions are hardest to notice. The next generation of evidence agents should be judged on missed studies, changed effect estimates, disagreement with reviewers, and whether conclusions remain stable&mdash;not only on accuracy, throughput, or a manuscript produced on schedule.</p>
+    <p>The opportunity is to pair the speed and reach of agents with the controls evidence teams already understand. The next generation can be judged on study coverage, effect-estimate stability, reviewer disagreement, and elapsed time together. That would make evidence synthesis not only faster, but easier to inspect, reproduce, and improve.</p>
 
     <p class="source-note">Source access note: PubMed, the complete PMC article, its tables, and the open repository were accessible. Direct bioRxiv and medRxiv API calls returned timeouts or a 503 during discovery; indexed preprint pages remained available, but same-day preprint coverage may be incomplete. Public LinkedIn indexing remained incomplete and was used only for discovery.</p>
   </section>

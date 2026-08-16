@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-15",
-      "note": "Direct NCBI E-Utilities supplied a systematic date-bounded candidate set, stable metadata, article dates, and primary abstracts."
+      "last_checked": "2026-08-16",
+      "note": "Direct NCBI E-Utilities supplied a systematic date-bounded candidate set, stable metadata, article dates, and complete primary abstracts."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-15",
-      "note": "The API, abstract pages, experimental full text, dates, versions, methods, results, and limitations were accessible."
+      "last_checked": "2026-08-16",
+      "note": "The API supplied current submission dates, versions, titles, identifiers, and abstracts; no additional candidate displaced the included primary sources."
     },
     "medRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-15",
-      "note": "Date-bounded API requests returned empty responses. Public indexed pages remained available for discovery, so same-day preprint coverage may be incomplete."
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "The date-bounded API returned 30 current records with dates, versions, DOIs, authors, abstracts, and source links; the ScreenAgent abstract and declarations were accessible."
     },
     "FDA": {
       "status": "ok",
@@ -108,30 +108,30 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-15",
-      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; AI Sleep Co-Scientist surfaced through the frontier institutional lane."
+      "last_checked": "2026-08-16",
+      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no new August 14-16 institutional artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-13"
+      "last_checked": "2026-08-16"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-13"
+      "last_checked": "2026-08-16"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-13"
+      "last_checked": "2026-08-16"
     },
     "bioRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-15",
-      "note": "Date-bounded API requests returned empty responses. Public indexed pages remained available for discovery, so same-day preprint coverage may be incomplete."
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "The date-bounded API returned 30 current records with dates, versions, DOIs, authors, and abstracts; no item cleared the AI-plus-RWE gate."
     },
     "NCBI PMC": {
       "status": "ok",
-      "last_checked": "2026-08-15",
-      "note": "The complete peer-reviewed adverse-event article, methods, tables, limitations, DOI, PMID, and PMCID were accessible."
+      "last_checked": "2026-08-16",
+      "note": "Complete open text, methods, results, limitations, stable identifiers, and links were accessible for CAVE-Onc and the cardiovascular validation study."
     },
     "GitHub / MacAma": {
       "status": "ok",
@@ -157,6 +157,31 @@
       "status": "ok",
       "last_checked": "2026-08-15",
       "note": "The public repository exposed benchmark tasks, reference scripts, agent code, evaluator, tests, and license; safeguarded cohort data remain separate."
+    },
+    "PLOS One": {
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "The peer-reviewed CAVE-Onc article, date, methods, results, limitations, data statements, and supporting files were accessible through PMC and DOI metadata."
+    },
+    "GitHub / CAVE-Onc": {
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "The MIT-licensed repository exposed code, benchmark data, tests, evaluation artifacts, provenance, manuscript files, and reproduction commands."
+    },
+    "BMJ Open": {
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "Complete open text, tables, methods, results, limitations, DOI, PMID, and PMCID were accessible through PMC and journal metadata."
+    },
+    "Elsevier / Transfusion Clinique et Biologique": {
+      "status": "partial",
+      "last_checked": "2026-08-16",
+      "note": "The DOI exposed an Elsevier linking page rather than complete article text; PubMed supplied the complete primary abstract, date, results, and PMID, and Crossref supplied journal and authorship metadata."
+    },
+    "Crossref": {
+      "status": "ok",
+      "last_checked": "2026-08-16",
+      "note": "DOI metadata, publication dates, journal titles, authors, licenses, and canonical links were accessible."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

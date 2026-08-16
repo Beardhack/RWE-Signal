@@ -1,4 +1,13 @@
 {
-  "updated": "2026-08-04",
-  "candidates": []
+  "updated": "2026-08-16",
+  "candidates": [
+    {
+      "name": "Jaime Yan",
+      "lane": "Agentic clinical-trial submission validation",
+      "affiliation_at_artifact": "Harrisburg University of Science and Technology",
+      "reason": "Authored an unusually strong peer-reviewed, preregistered, open-code primary artifact on graph-constrained agentic validation across CDISC oncology evidence domains.",
+      "artifact": "https://doi.org/10.1371/journal.pone.0350376",
+      "status": "candidate_not_promoted"
+    }
+  ]
 }

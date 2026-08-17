@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "Direct NCBI E-Utilities supplied a systematic date-bounded candidate set, stable metadata, article dates, and complete primary abstracts."
+      "last_checked": "2026-08-17",
+      "note": "Direct NCBI E-Utilities supplied a systematic date-bounded candidate set, stable metadata, article dates, and complete primary abstracts; no newly dated August 15-17 article passed the full gate."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-16",
+      "last_checked": "2026-08-17",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "The API supplied current submission dates, versions, titles, identifiers, and abstracts; no additional candidate displaced the included primary sources."
+      "last_checked": "2026-08-17",
+      "note": "The API and complete HTML supplied current submission dates, versions, methods, results, limitations, identifiers, and open source links for three included preprints."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "The date-bounded API returned 30 current records with dates, versions, DOIs, authors, abstracts, and source links; the ScreenAgent abstract and declarations were accessible."
+      "last_checked": "2026-08-17",
+      "note": "The date-bounded API was accessible and returned no records dated August 15-17."
     },
     "FDA": {
       "status": "ok",
@@ -125,8 +125,8 @@
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "The date-bounded API returned 30 current records with dates, versions, DOIs, authors, and abstracts; no item cleared the AI-plus-RWE gate."
+      "last_checked": "2026-08-17",
+      "note": "The date-bounded API was accessible and returned no records dated August 15-17."
     },
     "NCBI PMC": {
       "status": "ok",
@@ -167,6 +167,11 @@
       "status": "ok",
       "last_checked": "2026-08-16",
       "note": "The MIT-licensed repository exposed code, benchmark data, tests, evaluation artifacts, provenance, manuscript files, and reproduction commands."
+    },
+    "GitHub / LLM evidence retrieval bias": {
+      "status": "ok",
+      "last_checked": "2026-08-17",
+      "note": "The public repository exposed unchanged model responses, review-specific analyses, curated artifacts, figures, benchmark tooling, and a demo; licensed Cochrane source packages are not redistributed."
     },
     "BMJ Open": {
       "status": "ok",

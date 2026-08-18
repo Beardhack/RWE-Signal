@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-18",
   "candidates": [
     {
       "name": "Jaime Yan",
@@ -7,6 +7,14 @@
       "affiliation_at_artifact": "Harrisburg University of Science and Technology",
       "reason": "Authored an unusually strong peer-reviewed, preregistered, open-code primary artifact on graph-constrained agentic validation across CDISC oncology evidence domains.",
       "artifact": "https://doi.org/10.1371/journal.pone.0350376",
+      "status": "candidate_not_promoted"
+    },
+    {
+      "name": "Sathish Muthu",
+      "lane": "Agentic systematic review and evidence synthesis",
+      "affiliation_at_artifact": "Orthopaedic Research Group, Karur",
+      "reason": "Led an unusually strong peer-reviewed, independently validated, open-code primary artifact on modular agent assistance across systematic-review deduplication, screening, extraction, and verification.",
+      "artifact": "https://doi.org/10.2106/JBJS.OA.26.00102",
       "status": "candidate_not_promoted"
     }
   ]

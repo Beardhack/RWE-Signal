@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-17",
-      "note": "Direct NCBI E-Utilities supplied a systematic date-bounded candidate set, stable metadata, article dates, and complete primary abstracts; no newly dated August 15-17 article passed the full gate."
+      "last_checked": "2026-08-18",
+      "note": "Direct NCBI E-Utilities supplied the date-bounded candidate set, stable metadata, article dates, abstracts, PMID, DOI, and PMCID for the included peer-reviewed agentic-review study."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-17",
+      "last_checked": "2026-08-18",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-17",
-      "note": "The API and complete HTML supplied current submission dates, versions, methods, results, limitations, identifiers, and open source links for three included preprints."
+      "last_checked": "2026-08-18",
+      "note": "The API and complete PDF supplied the date, version, methods, cohort details, results, limitations, and identifier for the included longitudinal rare-disease modeling preprint."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-17",
-      "note": "The date-bounded API was accessible and returned no records dated August 15-17."
+      "last_checked": "2026-08-18",
+      "note": "The date-bounded API and complete primary PDF supplied current metadata, methods, multi-site provenance, results, and limitations for REFINE."
     },
     "FDA": {
       "status": "ok",
@@ -125,13 +125,13 @@
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-17",
-      "note": "The date-bounded API was accessible and returned no records dated August 15-17."
+      "last_checked": "2026-08-18",
+      "note": "The date-bounded API initially timed out and then completed successfully on retry."
     },
     "NCBI PMC": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "Complete open text, methods, results, limitations, stable identifiers, and links were accessible for CAVE-Onc and the cardiovascular validation study."
+      "last_checked": "2026-08-18",
+      "note": "Complete open XML and article text supplied methods, tables, results, limitations, identifiers, and repository links for the peer-reviewed agentic systematic-review study."
     },
     "GitHub / MacAma": {
       "status": "ok",
@@ -187,6 +187,16 @@
       "status": "ok",
       "last_checked": "2026-08-16",
       "note": "DOI metadata, publication dates, journal titles, authors, licenses, and canonical links were accessible."
+    },
+    "JBJS Open Access": {
+      "status": "ok",
+      "last_checked": "2026-08-18",
+      "note": "The peer-reviewed version of record, DOI, publication date, and open full text were verified through the journal record and PMC."
+    },
+    "GitHub / agentic systematic review": {
+      "status": "ok",
+      "last_checked": "2026-08-18",
+      "note": "Four MIT-licensed repositories exposed the modular deduplication, screening, extraction, and verification implementations and documented their local and model-service requirements."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

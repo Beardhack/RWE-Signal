@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-18",
-      "note": "Direct NCBI E-Utilities supplied the date-bounded candidate set, stable metadata, article dates, abstracts, PMID, DOI, and PMCID for the included peer-reviewed agentic-review study."
+      "last_checked": "2026-08-19",
+      "note": "Direct NCBI E-Utilities supplied the date-bounded candidate set and stable metadata; no additional current item cleared the full AI-plus-evidence gate."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-18",
+      "last_checked": "2026-08-19",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
-      "status": "ok",
-      "last_checked": "2026-08-18",
-      "note": "The API and complete PDF supplied the date, version, methods, cohort details, results, limitations, and identifier for the included longitudinal rare-disease modeling preprint."
+      "status": "partial",
+      "last_checked": "2026-08-19",
+      "note": "The date-bounded API rate-limited the query; current indexed arXiv results were checked as a fallback and produced no additional qualifying item."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-18",
-      "note": "The date-bounded API and complete primary PDF supplied current metadata, methods, multi-site provenance, results, and limitations for REFINE."
+      "last_checked": "2026-08-19",
+      "note": "The date-bounded API and complete primary PDFs supplied current metadata, methods, cohort provenance, results, figures, and limitations for PanoraOnc and the AML MedDRA coding study."
     },
     "FDA": {
       "status": "ok",
@@ -108,25 +108,25 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no new August 14-16 institutional artifact cleared the full gate."
+      "last_checked": "2026-08-19",
+      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 17-19 institutional artifact independently cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-16"
+      "last_checked": "2026-08-19"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-16"
+      "last_checked": "2026-08-19"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-16"
+      "last_checked": "2026-08-19"
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-18",
-      "note": "The date-bounded API initially timed out and then completed successfully on retry."
+      "last_checked": "2026-08-19",
+      "note": "The date-bounded API completed successfully; current artifacts did not clear the real-world-data or evidence-lifecycle side of the gate."
     },
     "NCBI PMC": {
       "status": "ok",

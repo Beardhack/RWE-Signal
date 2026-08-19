@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "candidates": [
     {
       "name": "Jaime Yan",
@@ -15,6 +15,14 @@
       "affiliation_at_artifact": "Orthopaedic Research Group, Karur",
       "reason": "Led an unusually strong peer-reviewed, independently validated, open-code primary artifact on modular agent assistance across systematic-review deduplication, screening, extraction, and verification.",
       "artifact": "https://doi.org/10.2106/JBJS.OA.26.00102",
+      "status": "candidate_not_promoted"
+    },
+    {
+      "name": "Franziska Michor",
+      "lane": "Clinico-genomic foundation models and counterfactual oncology evidence",
+      "affiliation_at_artifact": "Dana-Farber Cancer Institute and Harvard Medical School",
+      "reason": "Co-led an unusually strong multi-institutional primary artifact on transferable pan-cancer foundation modeling across 84,131 real-world patients, with external zero-shot validation and explicit observational counterfactual methods.",
+      "artifact": "https://doi.org/10.64898/2026.08.17.26354679",
       "status": "candidate_not_promoted"
     }
   ]

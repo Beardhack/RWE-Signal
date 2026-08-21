@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-20",
-      "note": "Direct NCBI E-Utilities supplied 21 current records, abstracts, dates, and stable metadata; no item cleared the full AI-plus-evidence gate."
+      "last_checked": "2026-08-21",
+      "note": "Direct NCBI E-Utilities supplied current records, abstracts, electronic publication dates, authorship, and stable metadata; three August 20 records cleared the full AI-plus-evidence gate."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-20",
+      "last_checked": "2026-08-21",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-20",
-      "note": "The date-bounded API completed successfully; current health, clinical-AI, and causal-inference submissions produced no additional qualifying item."
+      "last_checked": "2026-08-21",
+      "note": "The date-bounded API supplied current submissions; health-relevant agent, foundation-model, and privacy results produced no additional qualifying item."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-20",
-      "note": "The date-bounded API supplied 65 current records and complete metadata; the AI-relevant candidates did not clear the real-world-evidence side of the gate."
+      "last_checked": "2026-08-21",
+      "note": "The date-bounded API supplied current records and complete metadata; no August 20-21 candidate cleared the full intersection and novelty gates."
     },
     "FDA": {
       "status": "ok",
@@ -108,24 +108,24 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-20",
-      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 18-20 institutional artifact independently cleared the full gate."
+      "last_checked": "2026-08-21",
+      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 19-21 institutional artifact independently cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-20"
+      "last_checked": "2026-08-21"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-20"
+      "last_checked": "2026-08-21"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-20"
+      "last_checked": "2026-08-21"
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-20",
+      "last_checked": "2026-08-21",
       "note": "The date-bounded API completed successfully; current artifacts did not clear the real-world-data or evidence-lifecycle side of the gate."
     },
     "NCBI PMC": {
@@ -145,8 +145,8 @@
     },
     "JMIR": {
       "status": "ok",
-      "last_checked": "2026-08-15",
-      "note": "The peer-reviewed adverse-event study and DOI were verified; complete open text was available through PMC."
+      "last_checked": "2026-08-21",
+      "note": "Complete open XML supplied methods, results, limitations, dates, authorship, and identifiers for the LabBridge and oncology-guideline studies."
     },
     "GitHub / LLMADE": {
       "status": "ok",
@@ -197,6 +197,11 @@
       "status": "ok",
       "last_checked": "2026-08-18",
       "note": "Four MIT-licensed repositories exposed the modular deduplication, screening, extraction, and verification implementations and documented their local and model-service requirements."
+    },
+    "Elsevier / Journal of Critical Care": {
+      "status": "partial",
+      "last_checked": "2026-08-21",
+      "note": "The full article was not publicly accessible during this run; the primary PubMed record supplied the abstract, publication date, methods summary, results, DOI, PMID, and authorship."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -22,9 +22,9 @@
       "note": "Full text and tables for the sequential multi-site fine-tuning study were accessible."
     },
     "PubMed": {
-      "status": "ok",
-      "last_checked": "2026-08-21",
-      "note": "Direct NCBI E-Utilities supplied current records, abstracts, electronic publication dates, authorship, and stable metadata; three August 20 records cleared the full AI-plus-evidence gate."
+      "status": "partial",
+      "last_checked": "2026-08-22",
+      "note": "E-Utilities supplied current records, abstracts, electronic dates, authorship, and identifiers; one focused batch was rate-limited after several successful calls."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-21",
+      "last_checked": "2026-08-22",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-21",
+      "last_checked": "2026-08-22",
       "note": "The date-bounded API supplied current submissions; health-relevant agent, foundation-model, and privacy results produced no additional qualifying item."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-21",
-      "note": "The date-bounded API supplied current records and complete metadata; no August 20-21 candidate cleared the full intersection and novelty gates."
+      "last_checked": "2026-08-22",
+      "note": "The date-bounded API supplied current records and metadata; no August 20-22 candidate cleared the full intersection and novelty gates."
     },
     "FDA": {
       "status": "ok",
@@ -108,30 +108,30 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-21",
-      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 19-21 institutional artifact independently cleared the full gate."
+      "last_checked": "2026-08-22",
+      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 20-22 institutional artifact independently cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-21"
+      "last_checked": "2026-08-22"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-21"
+      "last_checked": "2026-08-22"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-21"
+      "last_checked": "2026-08-22"
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-21",
-      "note": "The date-bounded API completed successfully; current artifacts did not clear the real-world-data or evidence-lifecycle side of the gate."
+      "last_checked": "2026-08-22",
+      "note": "The date-bounded API and current version pages supplied DrugEvolve, BioPathfinder v2, and BioChirp v2 with dates, revision notes, abstracts, identifiers, and linked code."
     },
     "NCBI PMC": {
       "status": "ok",
-      "last_checked": "2026-08-18",
-      "note": "Complete open XML and article text supplied methods, tables, results, limitations, identifiers, and repository links for the peer-reviewed agentic systematic-review study."
+      "last_checked": "2026-08-22",
+      "note": "Complete open article text supplied methods, results, limitations, identifiers, and source links for the clinical-trial source-document-verification study."
     },
     "GitHub / MacAma": {
       "status": "ok",
@@ -202,6 +202,36 @@
       "status": "partial",
       "last_checked": "2026-08-21",
       "note": "The full article was not publicly accessible during this run; the primary PubMed record supplied the abstract, publication date, methods summary, results, DOI, PMID, and authorship."
+    },
+    "GitHub / DrugEvolve": {
+      "status": "ok",
+      "last_checked": "2026-08-22",
+      "note": "The Apache-2.0 repository exposed agent roles, execution flow, lineage and memory, configuration, security guidance, and before-and-after implementations for the evaluated applications."
+    },
+    "GitHub / BioPathfinder": {
+      "status": "ok",
+      "last_checked": "2026-08-22",
+      "note": "The public release and linked bioRxiv artifact exposed the v2 code-availability statement and the evidence-to-experiment workflow."
+    },
+    "GitHub / BioChirp": {
+      "status": "ok",
+      "last_checked": "2026-08-22",
+      "note": "The public repository and linked v2 preprint exposed the interpretation-execution architecture and evaluation artifacts."
+    },
+    "Elsevier / Journal of Biomedical Informatics": {
+      "status": "partial",
+      "last_checked": "2026-08-22",
+      "note": "Complete publisher text for two articles was not publicly accessible; primary PubMed records supplied abstracts, dates, results, identifiers, and authorship."
+    },
+    "Oxford Academic / European Heart Journal - Digital Health": {
+      "status": "partial",
+      "last_checked": "2026-08-22",
+      "note": "The accepted-manuscript page exposed the abstract, cohort, methods, results, date, DOI, and authorship; the PDF route was not consistently accessible."
+    },
+    "Wiley / Learning Health Systems": {
+      "status": "partial",
+      "last_checked": "2026-08-22",
+      "note": "The DOI and primary PubMed record supplied the abstract, publication date, methods, results, DOI, PMID, and authorship."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

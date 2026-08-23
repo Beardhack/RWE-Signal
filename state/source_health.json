@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -22,9 +22,9 @@
       "note": "Full text and tables for the sequential multi-site fine-tuning study were accessible."
     },
     "PubMed": {
-      "status": "partial",
-      "last_checked": "2026-08-22",
-      "note": "E-Utilities supplied current records, abstracts, electronic dates, authorship, and identifiers; one focused batch was rate-limited after several successful calls."
+      "status": "ok",
+      "last_checked": "2026-08-23",
+      "note": "E-Utilities supplied current records, abstracts, electronic dates, authorship, and identifiers for the August 23 run."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-22",
+      "last_checked": "2026-08-23",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-22",
-      "note": "The date-bounded API supplied current submissions; health-relevant agent, foundation-model, and privacy results produced no additional qualifying item."
+      "last_checked": "2026-08-23",
+      "note": "The abstract page, full experimental HTML, and date-bounded API supplied the Brain Researcher v1 paper, methods, results, limitations, authorship, and version history."
     },
     "medRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-22",
-      "note": "The date-bounded API supplied current records and metadata; no August 20-22 candidate cleared the full intersection and novelty gates."
+      "last_checked": "2026-08-23",
+      "note": "The 30-day and August 21-23 public API feeds were checked; no additional current candidate cleared the full intersection, novelty, and signal gates."
     },
     "FDA": {
       "status": "ok",
@@ -108,8 +108,8 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-22",
-      "note": "Stanford Medicine AI News, RAISE Health, AIMI, HAI, James Zou laboratory sources, and linked primary artifacts were accessible; no newly indexed August 20-22 institutional artifact independently cleared the full gate."
+      "last_checked": "2026-08-23",
+      "note": "Stanford institutional discovery surfaced Brain Researcher; the primary preprint, public project, repository, and archived release were verified directly."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
@@ -125,8 +125,8 @@
     },
     "bioRxiv": {
       "status": "ok",
-      "last_checked": "2026-08-22",
-      "note": "The date-bounded API and current version pages supplied DrugEvolve, BioPathfinder v2, and BioChirp v2 with dates, revision notes, abstracts, identifiers, and linked code."
+      "last_checked": "2026-08-23",
+      "note": "The 30-day and August 21-23 public API feeds were checked; no additional current candidate cleared the full intersection, novelty, and signal gates."
     },
     "NCBI PMC": {
       "status": "ok",
@@ -232,6 +232,21 @@
       "status": "partial",
       "last_checked": "2026-08-22",
       "note": "The DOI and primary PubMed record supplied the abstract, publication date, methods, results, DOI, PMID, and authorship."
+    },
+    "GitHub / Brain Researcher": {
+      "status": "ok",
+      "last_checked": "2026-08-23",
+      "note": "The MIT-licensed v0.3.0 agent kit exposed agent instructions, MCP adapters, deterministic review kernels, sanitized demos, evaluation rubrics, release notes, citation metadata, and redaction checks."
+    },
+    "Zenodo / Brain Researcher": {
+      "status": "ok",
+      "last_checked": "2026-08-23",
+      "note": "The August 14 v0.3.0 software archive supplied the artifact DOI, version, author, file metadata, and repository link."
+    },
+    "Springer / Journal of Behavioral Medicine": {
+      "status": "partial",
+      "last_checked": "2026-08-23",
+      "note": "The complete article was not publicly accessible; the primary PubMed record supplied the abstract, electronic publication date, methods, results, DOI, PMID, and authorship."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

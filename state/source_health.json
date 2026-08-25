@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-24",
-      "note": "E-Utilities supplied current records, abstracts, electronic dates, authorship, and identifiers for the August 24 run."
+      "last_checked": "2026-08-25",
+      "note": "E-Utilities supplied current August 23-25 records, abstracts, electronic dates, authorship, and identifiers."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,7 +33,7 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-08-25",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
@@ -42,14 +42,19 @@
       "note": "The abstract pages, full experimental HTML, and date-bounded API supplied the CLARA, NSPIN, and KREL v1 papers, methods, results, limitations, authorship, and version history."
     },
     "medRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-24",
-      "note": "The public API supplied current abstracts, dates, authorship, versions, and identifiers for TrialCode Agent and ChatMRPT; their complete article pages had not yet propagated into the public index."
+      "status": "ok",
+      "last_checked": "2026-08-25",
+      "note": "The public date-bounded API supplied all 104 August 23-25 records, abstracts, dates, authorship, versions, and identifiers."
     },
     "FDA": {
       "status": "ok",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-08-25",
       "note": "The complete 31-page generative-AI medical-device discussion paper, discussion page, announcement, docket, dates, and comment deadline were accessible."
+    },
+    "STAT": {
+      "status": "partial",
+      "last_checked": "2026-08-25",
+      "note": "Public article metadata supplied the canonical URL, headline, author, publication and modification dates, and article description; the complete interview required a subscription."
     },
     "CMS": {
       "status": "ok",
@@ -108,25 +113,25 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-24",
+      "last_checked": "2026-08-25",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-24"
+      "last_checked": "2026-08-25"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-24"
+      "last_checked": "2026-08-25"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-24"
+      "last_checked": "2026-08-25"
     },
     "bioRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-24",
-      "note": "The browser-safe API route was unavailable; discovery used the available public index and web search, and no additional current candidate cleared the full gate."
+      "status": "ok",
+      "last_checked": "2026-08-25",
+      "note": "The public date-bounded API supplied current August 23-25 records, abstracts, dates, authorship, versions, and identifiers."
     },
     "NCBI PMC": {
       "status": "ok",

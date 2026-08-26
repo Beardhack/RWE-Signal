@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-25",
-      "note": "E-Utilities supplied current August 23-25 records, abstracts, electronic dates, authorship, and identifiers."
+      "last_checked": "2026-08-26",
+      "note": "E-Utilities supplied 23 current August 24-26 LLM, agentic, and foundation-model records, abstracts, electronic dates, authorship, and identifiers."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,18 +33,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-24",
-      "note": "The abstract pages, full experimental HTML, and date-bounded API supplied the CLARA, NSPIN, and KREL v1 papers, methods, results, limitations, authorship, and version history."
+      "last_checked": "2026-08-26",
+      "note": "The abstract, version history, and complete experimental HTML supplied Future Querying's methods, benchmark scale, results, limitations, authorship, and workshop status."
     },
     "medRxiv": {
-      "status": "ok",
-      "last_checked": "2026-08-25",
-      "note": "The public date-bounded API supplied all 104 August 23-25 records, abstracts, dates, authorship, versions, and identifiers."
+      "status": "partial",
+      "last_checked": "2026-08-26",
+      "note": "The public API supplied 41 August 24-26 records plus complete abstracts, dates, authorship, versions, identifiers, and licenses; individual article pages did not render consistently through the public web interface."
     },
     "FDA": {
       "status": "ok",
@@ -69,6 +69,16 @@
     "ISPOR": {
       "status": "ok",
       "last_checked": "2026-08-24"
+    },
+    "ISPE": {
+      "status": "partial",
+      "last_checked": "2026-08-26",
+      "note": "Public indexing surfaced an upcoming agentic-RWE program preview, but the official program blocked automated access and no poster or complete abstract was publicly accessible."
+    },
+    "EQUATOR": {
+      "status": "ok",
+      "last_checked": "2026-08-26",
+      "note": "The reporting-guidelines registry confirmed AI4HM as a protocol template under development, registered August 5, 2026."
     },
     "Black Swan Causal Labs": {
       "status": "ok",
@@ -113,25 +123,25 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
       "status": "ok",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-08-26"
     },
     "Harvard Medical School DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-08-26"
     },
     "Columbia DBMI": {
       "status": "ok",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-08-26"
     },
     "bioRxiv": {
-      "status": "ok",
-      "last_checked": "2026-08-25",
-      "note": "The public date-bounded API supplied current August 23-25 records, abstracts, dates, authorship, versions, and identifiers."
+      "status": "partial",
+      "last_checked": "2026-08-26",
+      "note": "The date-bounded API did not return a usable response during this run; current web discovery was used as a supplement."
     },
     "NCBI PMC": {
       "status": "ok",

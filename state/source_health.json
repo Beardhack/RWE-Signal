@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -23,8 +23,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-26",
-      "note": "E-Utilities supplied 23 current August 24-26 LLM, agentic, and foundation-model records, abstracts, electronic dates, authorship, and identifiers."
+      "last_checked": "2026-08-27",
+      "note": "E-Utilities supplied 37 August 25-27 AI records for intersection review plus TrialScout's peer-reviewed abstract, DOI, electronic date, acceptance history, authorship, and identifiers."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,13 +33,13 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-26",
+      "last_checked": "2026-08-27",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-26",
-      "note": "The abstract, version history, and complete experimental HTML supplied Future Querying's methods, benchmark scale, results, limitations, authorship, and workshop status."
+      "last_checked": "2026-08-27",
+      "note": "The abstract, version history, and complete HTML supplied oFM's architecture, cohort scale, comparative-treatment benchmarks, limitations, authorship, and living-preprint status."
     },
     "medRxiv": {
       "status": "partial",
@@ -72,7 +72,7 @@
     },
     "ISPE": {
       "status": "partial",
-      "last_checked": "2026-08-26",
+      "last_checked": "2026-08-27",
       "note": "Public indexing surfaced an upcoming agentic-RWE program preview, but the official program blocked automated access and no poster or complete abstract was publicly accessible."
     },
     "EQUATOR": {
@@ -123,7 +123,7 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-26",
+      "last_checked": "2026-08-27",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
@@ -160,8 +160,8 @@
     },
     "JMIR": {
       "status": "ok",
-      "last_checked": "2026-08-21",
-      "note": "Complete open XML supplied methods, results, limitations, dates, authorship, and identifiers for the LabBridge and oncology-guideline studies."
+      "last_checked": "2026-08-27",
+      "note": "Complete open HTML supplied methods, results, limitations, dates, authorship, identifiers, and data statements for the structured-guidance guideline-appraisal study."
     },
     "GitHub / LLMADE": {
       "status": "ok",
@@ -262,6 +262,11 @@
       "status": "partial",
       "last_checked": "2026-08-23",
       "note": "The complete article was not publicly accessible; the primary PubMed record supplied the abstract, electronic publication date, methods, results, DOI, PMID, and authorship."
+    },
+    "Elsevier / Journal of Clinical Epidemiology": {
+      "status": "partial",
+      "last_checked": "2026-08-27",
+      "note": "The publisher full text did not render publicly; PubMed supplied TrialScout's complete peer-reviewed abstract, DOI, electronic date, acceptance history, methods, results, and identifiers, and the open v2 preprint supplied additional context."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

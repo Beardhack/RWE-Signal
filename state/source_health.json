@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -16,6 +16,11 @@
       "last_checked": "2026-08-07",
       "note": "The cancer extraction article was accessible and cross-checked against Europe PMC full text."
     },
+    "Nature / npj Digital Medicine": {
+      "status": "partial",
+      "last_checked": "2026-08-28",
+      "note": "HealthFlow's complete indexed article supplied methods, results, limitations, authorship, and the August 17 publication date; direct page opening redirected through an identity layer, so the authors' open repository supplied code, benchmark assets, runtime details, and citation metadata."
+    },
     "Oxford Academic / JAMIA Open": {
       "status": "ok",
       "last_checked": "2026-08-09",
@@ -23,8 +28,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-27",
-      "note": "E-Utilities supplied 37 August 25-27 AI records for intersection review plus TrialScout's peer-reviewed abstract, DOI, electronic date, acceptance history, authorship, and identifiers."
+      "last_checked": "2026-08-28",
+      "note": "E-Utilities supplied 33 August 26-28 AI records for intersection review plus the CAR-T and intestinal-symptom articles' complete abstracts, dates, authorship, identifiers, and methods and results summaries."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -33,7 +38,7 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-27",
+      "last_checked": "2026-08-28",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
@@ -160,8 +165,8 @@
     },
     "JMIR": {
       "status": "ok",
-      "last_checked": "2026-08-27",
-      "note": "Complete open HTML supplied methods, results, limitations, dates, authorship, identifiers, and data statements for the structured-guidance guideline-appraisal study."
+      "last_checked": "2026-08-28",
+      "note": "Complete open HTML supplied methods, results, limitations, dates, authorship, identifiers, and data statements for the locally deployed intestinal-symptom extraction study."
     },
     "GitHub / LLMADE": {
       "status": "ok",
@@ -267,6 +272,16 @@
       "status": "partial",
       "last_checked": "2026-08-27",
       "note": "The publisher full text did not render publicly; PubMed supplied TrialScout's complete peer-reviewed abstract, DOI, electronic date, acceptance history, methods, results, and identifiers, and the open v2 preprint supplied additional context."
+    },
+    "PLOS Digital Health": {
+      "status": "partial",
+      "last_checked": "2026-08-28",
+      "note": "The current publisher page did not render consistently; PubMed and DOI metadata supplied the peer-reviewed version-of-record details, and the open full research artifact supplied methods, results, and limitations."
+    },
+    "GitHub / HealthFlow": {
+      "status": "ok",
+      "last_checked": "2026-08-28",
+      "note": "The public repository exposed the four-agent runtime, governed memory, benchmark preparation and evaluation code, released datasets, human-evaluation platform, reproducibility instructions, and citation metadata."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

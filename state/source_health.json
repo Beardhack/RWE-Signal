@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -28,8 +28,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-28",
-      "note": "E-Utilities supplied 33 August 26-28 AI records for intersection review plus the CAR-T and intestinal-symptom articles' complete abstracts, dates, authorship, identifiers, and methods and results summaries."
+      "last_checked": "2026-08-29",
+      "note": "The current record sweep supplied publication dates, abstracts, authorship, and identifiers; five August 27-29 candidates were screened and none added a new qualifying intersection result."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -38,18 +38,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-28",
+      "last_checked": "2026-08-29",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-27",
-      "note": "The abstract, version history, and complete HTML supplied oFM's architecture, cohort scale, comparative-treatment benchmarks, limitations, authorship, and living-preprint status."
+      "last_checked": "2026-08-29",
+      "note": "The public API supplied sorted submission and version dates for the current EHR, RWE, target-trial, and phenotyping agent queries; no new August 27-29 qualifying record appeared."
     },
     "medRxiv": {
       "status": "partial",
-      "last_checked": "2026-08-26",
-      "note": "The public API supplied 41 August 24-26 records plus complete abstracts, dates, authorship, versions, identifiers, and licenses; individual article pages did not render consistently through the public web interface."
+      "last_checked": "2026-08-29",
+      "note": "The date-bounded public API returned HTTP 503; current public web indexing was used as a supplement and surfaced only previously covered or older artifacts."
     },
     "FDA": {
       "status": "ok",
@@ -128,7 +128,7 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-27",
+      "last_checked": "2026-08-29",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
@@ -205,8 +205,8 @@
     },
     "Crossref": {
       "status": "ok",
-      "last_checked": "2026-08-16",
-      "note": "DOI metadata, publication dates, journal titles, authors, licenses, and canonical links were accessible."
+      "last_checked": "2026-08-29",
+      "note": "DOI metadata and creation, online-publication, and canonical-link fields were accessible for August 27-29. Apparent current clinical-text leads were older underlying records or did not clear the evidence-lifecycle gate."
     },
     "JBJS Open Access": {
       "status": "ok",

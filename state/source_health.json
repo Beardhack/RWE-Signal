@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -28,8 +28,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-29",
-      "note": "The current record sweep supplied publication dates, abstracts, authorship, and identifiers; five August 27-29 candidates were screened and none added a new qualifying intersection result."
+      "last_checked": "2026-08-30",
+      "note": "The August 28-30 record sweep was accessible and produced no additional qualifying primary artifact."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -38,18 +38,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-29",
+      "last_checked": "2026-08-30",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-29",
-      "note": "The public API supplied sorted submission and version dates for the current EHR, RWE, target-trial, and phenotyping agent queries; no new August 27-29 qualifying record appeared."
+      "last_checked": "2026-08-30",
+      "note": "The complete BALMS record, exact v1 submission time, acceptance note, HTML, PDF, and TeX source supplied dataset, evaluation, result, limitation, affiliation, and ethics details."
     },
     "medRxiv": {
       "status": "partial",
-      "last_checked": "2026-08-29",
-      "note": "The date-bounded public API returned HTTP 503; current public web indexing was used as a supplement and surfaced only previously covered or older artifacts."
+      "last_checked": "2026-08-30",
+      "note": "Current public web indexing surfaced previously covered or older artifacts but no additional August 28-30 qualifying record."
     },
     "FDA": {
       "status": "ok",
@@ -128,7 +128,7 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-29",
+      "last_checked": "2026-08-30",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
@@ -204,9 +204,9 @@
       "note": "The DOI exposed an Elsevier linking page rather than complete article text; PubMed supplied the complete primary abstract, date, results, and PMID, and Crossref supplied journal and authorship metadata."
     },
     "Crossref": {
-      "status": "ok",
-      "last_checked": "2026-08-29",
-      "note": "DOI metadata and creation, online-publication, and canonical-link fields were accessible for August 27-29. Apparent current clinical-text leads were older underlying records or did not clear the evidence-lifecycle gate."
+      "status": "partial",
+      "last_checked": "2026-08-30",
+      "note": "Current DOI metadata remained available through narrower checks, but one broad August 29-30 discovery query was rate limited."
     },
     "JBJS Open Access": {
       "status": "ok",
@@ -282,6 +282,11 @@
       "status": "ok",
       "last_checked": "2026-08-28",
       "note": "The public repository exposed the four-agent runtime, governed memory, benchmark preparation and evaluation code, released datasets, human-evaluation platform, reproducibility instructions, and citation metadata."
+    },
+    "Elsevier / Neuroscience Informatics": {
+      "status": "partial",
+      "last_checked": "2026-08-30",
+      "note": "The August 29 journal metadata was accessible, but the text-mining endpoint returned an error. The complete June arXiv artifact established the underlying conformance-checking study and its first public date."
     }
   },
   "note": "Source limitations do not imply that an inaccessible social account or page contained no new material."

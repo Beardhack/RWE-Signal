@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "sources": {
     "Europe PMC": {
       "status": "ok",
@@ -28,8 +28,8 @@
     },
     "PubMed": {
       "status": "ok",
-      "last_checked": "2026-08-30",
-      "note": "The August 28-30 record sweep was accessible and produced no additional qualifying primary artifact."
+      "last_checked": "2026-08-31",
+      "note": "The August 29-31 record sweep was accessible. Its one newly dated LLM record concerned clinical decision support rather than the RWE evidence lifecycle."
     },
     "Wiley DOI": {
       "status": "partial",
@@ -38,18 +38,18 @@
     },
     "LinkedIn": {
       "status": "partial",
-      "last_checked": "2026-08-30",
+      "last_checked": "2026-08-31",
       "note": "Public indexing is incomplete and was used only for discovery."
     },
     "arXiv": {
       "status": "ok",
-      "last_checked": "2026-08-30",
-      "note": "The complete BALMS record, exact v1 submission time, acceptance note, HTML, PDF, and TeX source supplied dataset, evaluation, result, limitation, affiliation, and ethics details."
+      "last_checked": "2026-08-31",
+      "note": "The complete FedEHR-Agents v1 record and HTML supplied methods, tables, appendices, numerical results, limitations, affiliations, and version metadata."
     },
     "medRxiv": {
-      "status": "partial",
-      "last_checked": "2026-08-30",
-      "note": "Current public web indexing surfaced previously covered or older artifacts but no additional August 28-30 qualifying record."
+      "status": "ok",
+      "last_checked": "2026-08-31",
+      "note": "The date-bounded API was accessible and returned ten current records; none passed the full AI-plus-RWE intersection gate."
     },
     "FDA": {
       "status": "ok",
@@ -128,7 +128,7 @@
     },
     "Stanford frontier health AI": {
       "status": "ok",
-      "last_checked": "2026-08-30",
+      "last_checked": "2026-08-31",
       "note": "Current Stanford Medicine, HAI, RAISE Health, and AIMI discovery pages were checked; no additional new primary artifact cleared the full gate."
     },
     "MIT Jameel Clinic": {
@@ -205,8 +205,8 @@
     },
     "Crossref": {
       "status": "partial",
-      "last_checked": "2026-08-30",
-      "note": "Current DOI metadata remained available through narrower checks, but one broad August 29-30 discovery query was rate limited."
+      "last_checked": "2026-08-31",
+      "note": "Current DOI metadata remained available through narrower checks, but one broad agentic discovery query was rate limited."
     },
     "JBJS Open Access": {
       "status": "ok",
